@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+        <title>Register - Maxstore</title>
+        <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+       <!--  <link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/main.css?v=8">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/material-design-iconic-font.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/designer.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/developer.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/responsive.css">
+ -->
+        <link href="../../css2-1?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/material-design-iconic-font.min.css" rel="stylesheet"> 
+        <link href="../../css/all-font.css" rel="stylesheet"> 
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/line-awesome.min.css" rel="stylesheet">
+        <link href="../../css/chosen.css" rel="stylesheet">
+        <link href="../../css/SidebarNav.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap-popover-x.css" rel="stylesheet">
+        <link href="../../css/progresscircle.css" rel="stylesheet">
+        <link href="../../css/ion.rangeSlider.css" rel="stylesheet">
+        <link href="../../css/owl.carousel.min.css" rel="stylesheet">
+        <link href="../../css/wSelect.css" rel="stylesheet">
+        <link href="../../css/jquerysctipttop.css" rel="stylesheet">
+        <link href="../../css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="../../css/designer.css" rel="stylesheet">
+        <link href="../../css/developer.css" rel="stylesheet">
+        <link href="../../css/frontend.css" rel="stylesheet">
+        <link href="../../css/responsive.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body class="sticky-header">
+        <!-- Preloader -->
+        <!--<div id="preloader"></div>-->
+        <section class="main" id="main_box">
+            <div class="access-icon">
+                <a href="javascript:void(0)"><img src="../../img/accessibility-web.png" class="access-img"></a>
+            </div>
+             
+            <header>
+    <div class="home-nav-sec log-tran-domin">
+        <div class="HNS-nav">
+            <nav id="cssmenu">
+                <div class="logo"><a href="../../index.htm"><img src="../../img/logo-blue.png" alt=""></a></div>
+                <div class="HNSN-right sms-sevice-right-head">
+                    <ul>
+                                                <li class="SSRH-heading">
+                            Don’t have an account ?
+                        </li>
+                        <li class="SSRH-btn">
+                            <button type="button" class="cus-btn">Click Here</button>
+                        </li>
+                                                <li>
+                            <div class="HNSHRMR-btn HNSHRMR-dropi">
+                                <div class="my_account_dropi language-dropi">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                            <img src="../../img/before-login/global-icon.png" alt="" class="language-dropi-img language-noscroll-icon"> 
+                                            <img src="../../img/before-login/global-icon-scroll.png" alt="" class="language-dropi-img language-scroll-icon"> 
+                                            <i class="la la-angle-down"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                                                                                                                                                                        <li class="border_none  active  "><a href="create-account.html">English</a></li>
+                                                                                                                                                                                                                                        <li class="border_none  "><a href="javascript:void(0)">Hebrew (Soon)</a></li>
+                                                                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../sms-service.html" class="LT-domin-close"><i class="la la-close"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+            </nav>
+        </div>
+    </div>
+</header>                        
+            <link media="all" type="text/css" rel="stylesheet" href="../../lobibox/dist/css/lobibox.min.css">
+<script src="../../lobibox/lib/jquery.1.11.min.js"></script>
+<script src="../../lobibox/js/lobibox.js"></script>
+        <style type="text/css">
+.lobibox-notify-msg{max-height:600px !important;}
+</style>
+<script type="text/javascript">
+function ConfirmDeleteLovi(id,title,href)
+{
+	Lobibox.confirm({
+	title: title+' Confirmation',
+	msg: 'Are you sure you, want to '+title+'?',
+	callback: function ($this, type, ev) {
+		if (type === 'yes'){
+				if(title == 'Restore' || title == 'Active' || title == 'Inactive'){
+					window.location.href = href;
+				}else{
+                    if(href == 'logout'){
+                        $("#"+id).submit();  
+                        return true;
+                    }else{
+                        $("."+id).submit();  
+                    } 
+				}
+			}else{
+				return false;
+			}
+		}
+	});
+}
+</script>
+ <div class="hideshow" style="display: none;">
+  <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  <div class="blockUI blockMsg blockPage" style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+      <i class="icon-spinner3 spinner"></i>
+  </div>
+</div>            <link rel="stylesheet" href="../../public/css/intlTelInput.css">
+<section class="LT-domin-sec sms-service-section">     
+    <div class="container">
+        <div class="sms-feature-area">
+            <div class="sms-feature-area-head">
+                <div class="sms-back-btn">
+                    <a href="checkout/login.html">
+                        <div class="sms-back-img">
+                            <img src="../../img/sms-back-icon.svg" alt="">
+                        </div>
+                        <span>BACK</span>
+                    </a>
+                </div>
+                <div class="sms-stap-process">
+                    <div class="sms-process-bar sms-step3"></div>						
+                    <div class="sms-process-bar-text">Complete Step 2 of 3</div>						
+                </div>
+            </div>
+
+            <div class="sms-feature-card">
+                <div class="sms-feature-card-head">
+                    <h3>Create Your Account</h3>
+                    <p>Get started with Maxstore</p>
+                    <br>
+
+                    <div class="sms-new-create-account">
+                        <form method="POST" action="https://dev.maxstore.co.il/en/sms/create-account" accept-charset="UTF-8" id="smsFormSection"><input name="_token" type="hidden" value="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+                        <input type="hidden" name="_token" value="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>Full Name</label>
+                                        <input placeholder="Full Name" class="form-control" name="user[name]" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>Email</label>
+                                        <input placeholder="Email" class="form-control" required="required" id="email" name="user[email]" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>Street Address</label>
+                                        <input class="form-control" placeholder="Street Address" name="user[address1]" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>Street Address 2</label>
+                                        <input class="form-control" placeholder="Street Address 2" name="user[address2]" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>City</label>
+                                        <input class="form-control" placeholder="City" name="user[city]" type="text">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>State</label>
+                                        <select name="user[state]" id="state" class="form-control chosen-select"></select>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>sms/lang.ZIP Code</label>
+                                        <input class="form-control" placeholder="sms/lang.ZIP Code" name="user[postcode]" type="text">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group cus-protext sms-create-form">
+                                        <label>Phone</label>
+                                        <input class="form-control onlynumber" placeholder="Phone" id="user_phone" name="user[phonenumber]" type="tel">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group dynamic-dropi remove-cus-dropi custom-dropi">
+                                        <span class="text-heading">Country</span>
+                                        <select class="chosen-select" id="country" required="" data-placeholder="Country" name="user[country]"><option value="AF">Afghanistan</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia/Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="ZR">Congo, Dem. Rep. of (former Zaire) </option><option value="CR">Costa Rica</option><option value="CI">Cote D&#039;Ivoire</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GT">Guatemala</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KZ">Kazakstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KP">Korea (North)</option><option value="KR">Korea (South)</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People&#039;s</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macau</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="QA">Qatar</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="VC">St. Vincent and the Grenadines</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TG">Togo</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US" selected="selected">United States</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sms-feature-btn sms-custom-button">
+                                <a href="#" class="full-btn" id="btnRegister">Register</a>
+                            </div>
+
+                            <div class="sms-service-privacy">
+                                <p class="sms-term">
+                                    By signing up, you agree to the <a target="_blank" href="../terms-and-conditions.html" title="terms of service">terms of service </a> and  <a href="../privacy-policy.html" target="_blank">privacy policy</a>
+                                </p>
+                                <p class="sms-already-account">
+                                    Already have an account? <a href="../../login.html" title="Log in"> Log in</a>  
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <footer class="footer">
+        <div class="container">
+            <div class="footer-link-sec">
+                    <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Apps Hosting</h4>
+                                <ul class=""><li><a href="javascript:;" title="">WordPress Hosting</a></li><li><a href="javascript:;" title="">Joomla Hosting</a></li><li><a href="javascript:;" title="">Magento Hosting</a></li><li><a href="javascript:;" title="">Drupal Hosting</a></li><li><a href="javascript:;" title="">PrestaShop Hosting</a></li><li><a href="javascript:;" title="">All Apps</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Hosting Services</h4>
+                                <ul class=""><li><a href="javascript:;" title="">FTP Hosting </a></li><li><a href="javascript:;" title="">PHP Hosting </a></li><li><a href="javascript:;" title="">MySQL Hosting </a></li><li><a href="javascript:;" title="">Reseller Hosting </a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Server &amp; Cloud</h4>
+                                <ul class=""><li><a href="javascript:;" title="">Dedicated Server</a></li><li><a href="javascript:;" title="">Virtual Private Server</a></li><li><a href="javascript:;" title="">Cloud Backup</a></li><li><a href="javascript:;" title="">Co Location </a></li><li><a href="javascript:;" title="">Linux Server</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Security Solutions</h4>
+                                <ul class=""><li><a href="javascript:;" title="">SiteLock </a></li><li><a href="javascript:;" title="">Cloud Backup</a></li><li><a href="javascript:;" title="">CodeGuard </a></li><li><a href="javascript:;" title="">SSL Certificate </a></li></ul>                            </div>
+                        </div>
+                                                
+                    </div>
+                
+                    <div class="row">
+                        
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>More Products</h4>
+                                <ul class=""><li><a href="javascript:;" title="">WordPress Plugins </a></li><li><a href="javascript:;" title="">SMS Marketing</a></li><li><a href="javascript:;" title="">E-mail Marketing </a></li><li><a href="javascript:;" title="">Payment Gateway </a></li><li><a href="javascript:;" title="">Domain Name </a></li><li><a href="javascript:;" title="">VPS Hosting and Domain Bundle</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Support Center</h4>
+                                <ul class=""><li><a href="javascript:;" title="">Help & Support</a></li><li><a href="javascript:;" title="">WordPress Tutorials</a></li><li><a href="javascript:;" title="">Linux Tutorials</a></li><li><a href="javascript:;" title="">Hosted email tutorials</a></li><li><a href="javascript:;" title="">DirectAdmin tutorials</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>About Maxstore</h4>
+                                <ul class=""><li><a href="../pages/legal.html" target="_self" title="">Legal</a></li><li><a href="javascript:;" title="">Customer Reviews</a></li><li><a href="javascript:;" title="">Affiliate Program</a></li><li><a href="javascript:;" title="">Partnership</a></li><li><a href="../submit-bug-report.html" target="_self" title="">Submit Bug Request</a></li></ul>
+                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Network Tools</h4>
+                                <ul class=""><li><a href="../traceroute.html" target="_self" title="">Traceroute</a><ul><li><a href="../dns-checker.html" target="_self" title="">DNS Checker</a></li></ul></li><li><a href="https://dev.maxstore.co.il/en/whats-my-ip-address" target="_self" title="">Whats My IP Address</a></li><li><a href="../spam-blacklist-check.html" target="_self" title="">Blacklist Check</a></li></ul>                                
+                            </div>
+                        </div>
+                                            </div>
+            </div>
+            
+            <div class="footer-logo-sec">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="footer-logo">
+                            <a href="" class="footer-logo-img"><img src="../../img/before-login/white-logo.png" alt=""></a>
+                            <p>Copyright 2023  © Maxstore Cloud Platforms. All rights reserved.</p>
+                                                   </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-12">
+                        <div class="footer-social">
+                            <h3>Social Networks</h3>
+                            <ul>
+                                <li><a href="https://www.facebook.com/test"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/maxstoreCoil"><i class="fa fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCAvW7FkkqeBArgbzVfOgWSw"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="https://www.linkedin.com/test"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="social-payment">
+                            <h3>Accept Payment Via</h3>
+                            <ul>
+                                <li><a href="javascript:;"><img src="../../img/before-login/visa-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../../img/before-login/mastercard-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../../img/before-login/discover-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../../img/before-login/paypal-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../../img/before-login/amex--icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../../img/before-login/bitcoin-icon.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright-sec">
+            <div class="container">
+                <div class="copy-sec-left">
+                    <ul>
+                        <li><a href="../terms-and-conditions.html">Terms of Service</a></li>
+                        <li><a href="javascript:;">AUP / DMCA</a></li>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="copy-sec-right">
+                    <a href="#main_box"><i class="la la-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <script>
+                var hide_no_use_js = true;
+            </script>
+            <script src="../../js/jquery-3.3.1.min.js"></script>	
+            <script src="../../js/jquery-1.9.1.min.js"></script>	
+            <script src="../../js/bootstrap-min.js"></script>
+            <script src="../../js/swiper.min.js"></script>
+            <script src="../../js/chosen.jquery.js"></script>	
+            <script src="../../js/bootstrap-popover-x.js"></script>	
+            <script src="../../js/progresscircle.js"></script>	
+            <script src="../../js/card.js"></script>		
+            <script src="../../js/SidebarNav.min.js"></script>
+            <script src="../../js/ion.rangeSlider.min.js"></script>
+            <script src="../../js/bootstrap-select.min.js"></script>
+            <script src="../../js/countrypicker.js"></script>
+            <script src="../../js/owl.carousel.js"></script>	
+            <script src="../../js/front_custom.js"></script>	
+            <script src="../../public/js/jquery.validate.min.js"></script>
+            <script src="../../public/js/custom.validiation.min.js"></script>
+            <script src="../../public/js/jquery.form.js"></script>
+            <script src="../../public/js/jquery-ui.min.js"></script>
+            <script src="../../public/js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function(){
+              $(".HNS-nav .button").click(function(){ 
+                $(".HNS-nav").toggleClass("HNS-open-menu");
+                $("body").toggleClass("nav-open-scroll");
+              }); 
+            });
+            </script>
+            <script src="../../recaptcha/api.js?" async="" defer=""></script>
+
+              <script type="text/javascript">
+                var site_url = "https://dev.maxstore.co.il";
+                jQuery(document).ready(function () {
+                     CustomFormValidiation.init();
+                });
+                $("#preloader").fadeOut();
+              </script>
+            		
+<script src="../../public/js/intlTelInput.js"></script>
+<script type="text/javascript">
+    var user_phone = document.querySelector("#user_phone");
+    var userIti = window.intlTelInput(user_phone, {
+      utilsScript: "../../public/js/utils.js?1690802994",
+      separateDialCode: true,
+      formatOnDisplay: false,
+      autoPlaceholder: 'off'
+    });
+
+    userIti.setCountry("il");
+
+    var cartUpdate = "https://dev.maxstore.co.il/en/checkout-cart-show";
+    var getContactUrl = "https://dev.maxstore.co.il/en/checkout-contact";
+    (function ($) {
+        $(window).on("load", function () {
+            $(".link_scroll").mCustomScrollbar({
+                theme: "minimal",
+            });
+        });
+        
+        var country_id = $("#country").val();
+        var state_name = '';
+
+        $.ajax({
+            url: "https://dev.maxstore.co.il/country/states",
+            method: 'get',
+            data: {countryID: country_id},
+            beforeSend: function () {
+                $("#state").html('');
+            },
+            success: function (html) {
+                $("#state").html(html);
+                $("#state").val(state_name);
+                $("#state").trigger("chosen:updated");
+            }
+        });
+
+        $("#country").change(function () {
+            var country_id = $(this).val();
+            $.ajax({
+                url: "https://dev.maxstore.co.il/country/states",
+                method: 'get',
+                data: {countryID: country_id},
+                beforeSend: function () {
+                    $("#state").html('');
+                },
+                success: function (html) {
+                    $("#state").html(html);
+                    $("#state").trigger("chosen:updated");
+                }
+            });
+        });
+    })(jQuery);
+    var transJs = JSON.parse('{"added":"Added","add_to_cart":"Add to Cart","only_paypal_msg":"Currently, Only PayPal payment is supported","select_payment":"Please select Method of Payment","t_c_msg":"You must agree to T&C before proceeding","domain_unavailable_msg":"Oops! Below domain(s) became unavailable. Please remove below from cart or choose other domain to contiune","nameserver":"Nameserver","enter_nameserver":"Enter Nameserver","went_wrong":"Something went wrong. Refresh the page and try again","confirm_msg":"Are you sure you want to continue?","valid_domain_msg":"Please enter a valid domain","select_msg":"Please select an option to contiune","confirm":"Confirm","required":"*Required","valid_email":"Invalid email address","valid_phone":"Invalid phone number","required_length_error":"Please fill all required field","select_record_msg":"Please select an record to contiune","yes_proceed":"Yes, please proceed!","no_cancel":"No, cancel it!","record_updated_success_msg":"Record updated sucessfully!","no_payment_selected":"Please select payment method to continue","email_sent":"Email sent successfully!","date_from_to_error":"Please select dates","unsaved_alert":"Changes you made may not be saved","not_deleted":"Record could not be deleted","confirm_delete_msg_with_child":"Deleting this will also delete its associated records. Are you sure you want to continue?","no_card_option":"Please select card option to continue","only_chars_msg":"Only characters are allowed","only_eng_chars_msg":"Only english characters are allowed","list_required":"Please choose one of list options from the dropdown to continue","duplicate_found":"Duplicate record found"}');
+</script>
+<script src="../../assets/frontend/js/sms_checkout.js"></script>
+        </section>
+    </body>
+</html>

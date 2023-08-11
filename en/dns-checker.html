@@ -1,0 +1,928 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+        <title>DNS Propagation Checker - Maxstore</title>
+        <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/material-design-iconic-font.min.css" rel="stylesheet"> 
+        <link href="../css/all-font.css" rel="stylesheet"> 
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/line-awesome.min.css" rel="stylesheet">
+        <link href="../css/chosen.css" rel="stylesheet">
+        <link href="../css/SidebarNav.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-popover-x.css" rel="stylesheet">
+        <link href="../css/progresscircle.css" rel="stylesheet">
+        <link href="../css/ion.rangeSlider.css" rel="stylesheet">
+        <link href="../css/jquerysctipttop.css" rel="stylesheet">
+        <link href="../css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="../css/owl.carousel.min.css" rel="stylesheet">
+        <link href="../css/wSelect.css" rel="stylesheet">
+        <link media="all" type="text/css" rel="stylesheet" href="../css/jquery.mCustomScrollbar.css">
+        <link media="all" type="text/css" rel="stylesheet" href="../css/jquery.ui.autocomplete.css">
+        <link href="../css/designer.css" rel="stylesheet">
+        <link href="../css/developer.css" rel="stylesheet">
+        <link href="../css/frontend.css" rel="stylesheet">
+        <link href="../css/responsive.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body class="sticky-header">
+        <!-- Preloader -->
+        <!--<div id="preloader"></div>-->
+        <section class="main" id="main_box">
+            <div class="access-icon">
+                <a href="javascript:void(0)"><img src="../img/accessibility-web.png" class="access-img"></a>
+            </div>
+            <header>
+      <div class="home-nav-sec">
+          <div class="HNS-nav">
+              <nav id="cssmenu">
+                <div class="logo">
+                  <a href="../index.htm">
+                    <img src="../img/before-login/white-logo.png" alt="Logo">
+                  </a>
+                </div>
+                <div class="scrolllogo"><a href="../index.htm"><img src="../img/logo-blue.png" alt="Logo"></a></div>
+                <div id="head-mobile"></div>
+                <div class="HNSN-right HNSNR-mobile-right">
+                       
+                                                <div class="HNSHRMR-btn HNSHRMR-create">
+                          <a href="register.html" title="Create Account" class="head-cus-btn">Create Account </a>
+                        </div>
+                        <div class="HNSHRMR-btn HNSHRMR-login">
+                            <a href="../login.html" title="Login" class="head-cus-btn without-bg-btn">
+                                    Login
+                              </a>
+                        </div>
+                                                                    <div class="HNSHRMR-btn HNSHRMR-dropi">
+                        <div class="my_account_dropi language-dropi">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <img src="../img/before-login/global-icon.png" alt="" class="language-dropi-img language-noscroll-icon"> <img src="../img/before-login/global-icon-scroll.png" alt="" class="language-dropi-img language-scroll-icon"> <i class="la la-angle-down"></i>
+                              </button>
+                              <ul class="dropdown-menu" role="menu">
+                                                                                                                                        <li class="border_none  active  "><a href="dns-checker.html">English</a></li>
+                                                                                                                                                                            <li class="border_none  "><a href="javascript:void(0)">Hebrew (Soon)</a></li>
+                                                                                                  </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="button"></div>
+                <ul class="HNS-ul"><li><a href="javascript:;" title="Products">Products</a><ul><li><a href="javascript:;" title="Marketing Tools">Marketing Tools</a><ul><li><a href="sms-service.html" target="_self" title="SMS Marketing">SMS Marketing</a></li></ul></li></ul></li><li><a href="domain.html" target="_self" title="">Domains</a></li><li><a href="javascript:;" title="Marketplace Soon">Marketplace</a></li><li><a href="javascript:;" title="">Free Tools</a><ul><li><a href="ssl-checker.html" target="_self" title="">SSL Checker</a></li><li><a href="ssl-mix-content-checker.html" target="_self" title="">SSL Mix Content Checker</a></li><li><a href="javascript:;" title="Network Tools">Network Tools</a><ul><li><a href="https://dev.maxstore.co.il/en/whats-my-ip-address" target="_self" title="What’s My IP Address">What’s My IP Address</a></li><li><a href="traceroute.html" target="_self" title="">Traceroute</a></li><li><a href="whois.html" target="_self" title="Whois Lookup">Whois Lookup</a></li><li><a href="dns-checker.html" target="_self" title="">A Record Checker</a></li></ul></li><li><a href="javascript:;" title="Password Tools">Password Tools</a><ul><li><a href="password-generator.html" target="_self" title="">Password Generator</a></li><li><a href="md5-password-generator.html" target="_self" title="">MD5 Hash Generator</a></li><li><a href="base64-converter.html" target="_self" title="">Base64 Converter</a></li><li><a href="sha-1-generator.html" target="_self" title="">SHA-1 Hash Generator</a></li><li><a href="sha-256-generator.html" target="_self" title="SHA-256 Hash Generator">SHA-256 Hash Generator</a></li></ul></li><li><a href="javascript:;" title="SEO Tools">SEO Tools</a><ul><li><a href="https://dev.maxstore.co.il/en/website-seo-score-checker" target="_self" title="">Website Seo Score Checker</a></li><li><a href="seo-score-checker.html" target="_self" title="">SEO Score Checker</a></li><li><a href="backlink-checker.html" target="_self" title="">Backlink Checker</a></li><li><a href="broken-links-checker-tool.html" target="_self" title="">Broken Links Checker tool</a></li><li><a href="backlink-checker.html" target="_self" title="">Backlinking Checker</a></li><li><a href="meta-tag-generator.html" target="_self" title="">Meta Tag Generator</a></li></ul></li><li><a href="javascript:;" title="Developer Tools">Developer Tools</a><ul><li><a href="wordpress-theme-detector.html" target="_self" title="WordPress Theme Detector">WordPress Theme Detector</a></li><li><a href="htaccess-redirect.html" target="_self" title="Htaccess Redirect Generator">Htaccess Redirect Generator</a></li><li><a href="xml-sitemap-generator.html" target="_self" title="XML Sitemap Generator">XML Sitemap Generator</a></li><li><a href="robot-text-generator.html" target="_self" title="Robot .txt Generator">Robot .txt Generator</a></li><li><a href="website-page-size-checker.html" target="_self" title="Website Page Size Checker">Website Page Size Checker</a></li><li><a href="word-counter.html" target="_self" title="Word Counter">Word Counter</a></li><li><a href="qr-code-generator.html" target="_self" title="QR Code Generator">QR Code Generator</a></li></ul></li></ul></li><li><a href="https://members.maxstore.co.il/clientarea.php" target="_self" title="Old Site">Old Site</a></li></ul>                <div class="HNSN-right">
+                    <ul>
+                        <li>
+                            <span><a href="support.html">Support </a></span>
+                        </li>
+                       <!-- condition use for erro 404 page only -->
+                                                     <li id="login">
+                              <a href="../login.html" title="Login" class="head-cus-btn without-bg-btn">
+                                    Login
+                              </a>
+                            </li>
+                            <li id="register">
+                              <a href="register.html" title="Create Account" class="head-cus-btn">
+                                Create Account
+                              </a>
+                            </li>
+                                                                    <li>
+                          <div class="my_account_dropi language-dropi">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                  <img src="../img/before-login/global-icon.png" alt="" class="language-dropi-img language-noscroll-icon"> <img src="../img/before-login/global-icon-scroll.png" alt="" class="language-dropi-img language-scroll-icon"> <i class="la la-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                                                                                                                            <li class="border_none  active  "><a href="dns-checker.html">English</a></li>
+                                                                                                                                                                              <li class="border_none  "><a href="javascript:void(0)">Hebrew (Soon)</a></li>
+                                                                                                    </ul>
+                              </div>
+                          </div>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+            <link media="all" type="text/css" rel="stylesheet" href="../lobibox/dist/css/lobibox.min.css">
+<script src="../lobibox/lib/jquery.1.11.min.js"></script>
+<script src="../lobibox/js/lobibox.js"></script>
+        <style type="text/css">
+.lobibox-notify-msg{max-height:600px !important;}
+</style>
+<script type="text/javascript">
+function ConfirmDeleteLovi(id,title,href)
+{
+	Lobibox.confirm({
+	title: title+' Confirmation',
+	msg: 'Are you sure you, want to '+title+'?',
+	callback: function ($this, type, ev) {
+		if (type === 'yes'){
+				if(title == 'Restore' || title == 'Active' || title == 'Inactive'){
+					window.location.href = href;
+				}else{
+                    if(href == 'logout'){
+                        $("#"+id).submit();  
+                        return true;
+                    }else{
+                        $("."+id).submit();  
+                    } 
+				}
+			}else{
+				return false;
+			}
+		}
+	});
+}
+</script>
+ <div class="hideshow" style="display: none;">
+  <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  <div class="blockUI blockMsg blockPage" style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+      <i class="icon-spinner3 spinner"></i>
+  </div>
+</div>            <div class="custome-left-right-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="CLRS-left">    
+                    <div class="CLTSL-heading">
+                        <h3>DNS Propagation Checker</h3>
+                    </div>
+
+                    <div class="SSL-checker-tab">
+                        <div class="SSL-checker-body">
+                            <div class="CLRSL-box none_bor_padd">
+                                <form id="f" class="">
+                                    <div class="check-tag-input DNS-dropi">
+                                        <div class="check-tag">
+                                            <div class="form-group">
+                                                <div class="CT-tag-icon"><i class="la la-globe"></i></div>
+                                                <input type="text" value="" placeholder="www.example.com" id="q" class="form-control q" autofocus="">
+                                                <div class="TDSL-dropi-area cus-small-dropi">
+                                                    <select id="t">
+                                                        <option value="A" title="Host address (dotted quad)" selected="selected">A</option>
+                                                        <option value="AAAA" title="IP v6 address (address spec with colons)">AAAA</option>
+                                                        <option value="CNAME" title="Canonical name for an alias (domain name)">CNAME</option>
+                                                        <option value="MX" title="Mail exchanger (preference value, domain name)">MX</option>
+                                                        <option value="NS" title="Authoritative nameserver (domain name)">NS</option>
+                                                        <option value="PTR" title="Domain name pointer (domain name)">PTR</option>
+                                                        <option value="SOA" title="Start of Authority">SOA</option>
+                                                        <option value="SRV" title="Service record">SRV</option>
+                                                        <option value="TXT" title="Descriptive text (one or more strings)">TXT</option>
+                                                        <option value="CAA" title="Certification Authority Authorization">CAA</option>
+                                                    </select>
+                                                </div>
+                                                <div class="DNS-setting-area">
+                                                    <button class="DNSS-btn" type="button"><i class="la la-gear"></i></button>
+                                                </div>
+                                            </div>
+                                            <button id="s" class="CT-tag-btn width_auto" type="submit">
+                                                 Check <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                        <div class="DNS-setting-toggle">
+                                            <div class="form-group"> 
+                                                <label for="c">Expected Value:</label>
+                                                <input type="text" id="c" placeholder="1.2.3.4" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="dns-city-list">
+                                    <ul id="results">
+                                                                                <li data-id="1" data-latitude="40.68" data-longitude="-73.78" data-location="Jamaica NY, United States" data-provider="Level 3 Communications">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/us-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Jamaica NY, United States
+                                            </div>
+                                            <h6>Level 3 Communications</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="2" data-latitude="42.35" data-longitude="-71.05" data-location="Boston MA, United States" data-provider="Speakeasy">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/us-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Boston MA, United States
+                                            </div>
+                                            <h6>Speakeasy</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="3" data-latitude="32.78" data-longitude="-96.79" data-location="Dallas TX, United States" data-provider="Speakeasy">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/us-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Dallas TX, United States
+                                            </div>
+                                            <h6>Speakeasy</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="4" data-latitude="40.75" data-longitude="-73.98" data-location="New York NY, United States" data-provider="Speakeasy">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/us-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                New York NY, United States
+                                            </div>
+                                            <h6>Speakeasy</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="5" data-latitude="39.04" data-longitude="-77.49" data-location="Ashburn VA, United States" data-provider="Cloudflare">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/us-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Ashburn VA, United States
+                                            </div>
+                                            <h6>Cloudflare</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="6" data-latitude="45.51" data-longitude="-73.57" data-location="Montreal QC, Canada" data-provider="MetroOptic">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/canada-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Montreal QC, Canada
+                                            </div>
+                                            <h6>MetroOptic</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="7" data-latitude="-12.98" data-longitude="-38.52" data-location="Salvador, Brazil" data-provider="Global Village Telecom">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/canada-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Salvador, Brazil
+                                            </div>
+                                            <h6>Global Village Telecom</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="8" data-latitude="51.51" data-longitude="-0.13" data-location="London, United Kingdom" data-provider="InterNAP">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/australia-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                London, United Kingdom
+                                            </div>
+                                            <h6>InterNAP</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="9" data-latitude="48.87" data-longitude="2.33" data-location="Paris, France" data-provider="France Telecom">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Paris, France
+                                            </div>
+                                            <h6>France Telecom</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="10" data-latitude="51.52" data-longitude="7.45" data-location="Dortmund, Germany" data-provider="Verizon">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Dortmund, Germany
+                                            </div>
+                                            <h6>Verizon</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="11" data-latitude="43.72" data-longitude="10.95" data-location="Empoli, Italy" data-provider="Leonet">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Empoli, Italy
+                                            </div>
+                                            <h6>Leonet</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="12" data-latitude="35.97" data-longitude="36.01" data-location="Yeditepe, Turkey" data-provider="Yeditepe University">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Yeditepe, Turkey
+                                            </div>
+                                            <h6>Yeditepe University</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="13" data-latitude="56.86" data-longitude="60.61" data-location="Yekaterinburg, Russia" data-provider="CSJS Ural">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Yekaterinburg, Russia
+                                            </div>
+                                            <h6>CSJS Ural</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="14" data-latitude="34.04" data-longitude="71.49" data-location="Peshawar, Pakistan" data-provider="PERN">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Peshawar, Pakistan
+                                            </div>
+                                            <h6>PERN</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="15" data-latitude="18.98" data-longitude="72.83" data-location="Mumbai, India" data-provider="Reliance Communications">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Mumbai, India
+                                            </div>
+                                            <h6>Reliance Communications</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="16" data-latitude="14.18" data-longitude="100.28" data-location="Bangkok, Thailand" data-provider="3BB Broadband">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Bangkok, Thailand
+                                            </div>
+                                            <h6>3BB Broadband</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="17" data-latitude="3.11" data-longitude="101.61" data-location="Petaling Jaya, Malaysia" data-provider="Clear-Comm">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Petaling Jaya, Malaysia
+                                            </div>
+                                            <h6>Clear-Comm</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="18" data-latitude="39.91" data-longitude="116.4" data-location="Beijing, China" data-provider="CNNIC">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Beijing, China
+                                            </div>
+                                            <h6>CNNIC</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="19" data-latitude="-38.15" data-longitude="144.36" data-location="Geelong VIC, Australia" data-provider="AARNet">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Geelong VIC, Australia
+                                            </div>
+                                            <h6>AARNet</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="20" data-latitude="-33.83" data-longitude="151.09" data-location="Rhodes NSW, Australia" data-provider="Over The Wire">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Rhodes NSW, Australia
+                                            </div>
+                                            <h6>Over The Wire</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                                <li data-id="21" data-latitude="-41.29" data-longitude="174.77" data-location="Wellington, New Zealand" data-provider="Xtreme Networks">
+                                            <div class="DNSCL-img">
+                                                <img src="../img/before-login/france-flag.png" alt="">
+                                            </div>
+                                            <div class="name">
+                                                <i class="flag flag-us"></i> 
+                                                Wellington, New Zealand
+                                            </div>
+                                            <h6>Xtreme Networks</h6>
+                                            <div class="result">-</div>
+                                            <div class="status">
+                                                <img alt="" src="../img/grey.png">
+                                            </div>
+                                        </li> 
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-12">
+                <div class="ssl-check-right">
+                    <div class="CLRSR-social">
+    <div class="CLRSR-so-left">
+        <span>
+            <i class="fa fa-share-alt"></i> Share
+        </span>
+    </div>
+    
+    <div class="CLRSR-so-righ">
+        <div class="CLRSR-social-list">
+        	<div id="social-links"><ul><li><a href="../login-2.php?u=https://dev.maxstore.co.il/en/dns-checker" class="social-button twi share_icn" id=""><span class="fa fa-facebook-official"></span></a></li><li><a href="https://twitter.com/intent/tweet?text=&url=https://dev.maxstore.co.il/en/dns-checker" class="social-button twi share_icn" id=""><span class="fa fa-twitter"></span></a></li></ul></div>
+        </div>
+    </div>
+</div>
+
+                    <div class="dns-map">
+                        <div class="dns-map-box">
+                            <div id="map" class="map" style="height: 200px;width: 358px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ssl-CR-tool">
+                    <h3>Tools</h3>
+<ul>
+    <li class="">
+      <a href="ssl-checker.html">SSL Checker</a>
+    </li> 
+    <li class="active">
+      <a href="dns-checker.html">DNS Checker</a>
+    </li>
+    <li class=""><a href="traceroute.html">Traceroute</a></li>
+    <li class=""><a href="spam-blacklist-check.html">Spam Blacklist Check</a></li>
+    <!--<li class=""><a href="https://dev.maxstore.co.il/en/speed-meter-1">Speed Test Meter1</a></li>
+    <li class=""><a href="https://dev.maxstore.co.il/en/speed-meter-2">Speed Test Meter2</a></li>-->
+    <li class=""><a href="https://dev.maxstore.co.il/en/whats-my-ip-address">What&#039;s My IP Address</a></li>
+</ul>
+                                       </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <div id="domainCartDiv"><!-- This div is being used to display cart section at bottom --></div>
+                        <footer class="footer">
+        <div class="container">
+            <div class="footer-link-sec">
+                    <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Apps Hosting</h4>
+                                <ul class=""><li><a href="javascript:;" title="">WordPress Hosting</a></li><li><a href="javascript:;" title="">Joomla Hosting</a></li><li><a href="javascript:;" title="">Magento Hosting</a></li><li><a href="javascript:;" title="">Drupal Hosting</a></li><li><a href="javascript:;" title="">PrestaShop Hosting</a></li><li><a href="javascript:;" title="">All Apps</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Hosting Services</h4>
+                                <ul class=""><li><a href="javascript:;" title="">FTP Hosting </a></li><li><a href="javascript:;" title="">PHP Hosting </a></li><li><a href="javascript:;" title="">MySQL Hosting </a></li><li><a href="javascript:;" title="">Reseller Hosting </a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Server &amp; Cloud</h4>
+                                <ul class=""><li><a href="javascript:;" title="">Dedicated Server</a></li><li><a href="javascript:;" title="">Virtual Private Server</a></li><li><a href="javascript:;" title="">Cloud Backup</a></li><li><a href="javascript:;" title="">Co Location </a></li><li><a href="javascript:;" title="">Linux Server</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Security Solutions</h4>
+                                <ul class=""><li><a href="javascript:;" title="">SiteLock </a></li><li><a href="javascript:;" title="">Cloud Backup</a></li><li><a href="javascript:;" title="">CodeGuard </a></li><li><a href="javascript:;" title="">SSL Certificate </a></li></ul>                            </div>
+                        </div>
+                                                
+                    </div>
+                
+                    <div class="row">
+                        
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>More Products</h4>
+                                <ul class=""><li><a href="javascript:;" title="">WordPress Plugins </a></li><li><a href="javascript:;" title="">SMS Marketing</a></li><li><a href="javascript:;" title="">E-mail Marketing </a></li><li><a href="javascript:;" title="">Payment Gateway </a></li><li><a href="javascript:;" title="">Domain Name </a></li><li><a href="javascript:;" title="">VPS Hosting and Domain Bundle</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Support Center</h4>
+                                <ul class=""><li><a href="javascript:;" title="">Help & Support</a></li><li><a href="javascript:;" title="">WordPress Tutorials</a></li><li><a href="javascript:;" title="">Linux Tutorials</a></li><li><a href="javascript:;" title="">Hosted email tutorials</a></li><li><a href="javascript:;" title="">DirectAdmin tutorials</a></li></ul>                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>About Maxstore</h4>
+                                <ul class=""><li><a href="pages/legal.html" target="_self" title="">Legal</a></li><li><a href="javascript:;" title="">Customer Reviews</a></li><li><a href="javascript:;" title="">Affiliate Program</a></li><li><a href="javascript:;" title="">Partnership</a></li><li><a href="submit-bug-report.html" target="_self" title="">Submit Bug Request</a></li></ul>
+                            </div>
+                        </div>
+                                                
+                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="home-footer-box">
+                                <h4>Network Tools</h4>
+                                <ul class=""><li><a href="traceroute.html" target="_self" title="">Traceroute</a><ul><li><a href="dns-checker.html" target="_self" title="">DNS Checker</a></li></ul></li><li><a href="https://dev.maxstore.co.il/en/whats-my-ip-address" target="_self" title="">Whats My IP Address</a></li><li><a href="spam-blacklist-check.html" target="_self" title="">Blacklist Check</a></li></ul>                                
+                            </div>
+                        </div>
+                                            </div>
+            </div>
+            
+            <div class="footer-logo-sec">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="footer-logo">
+                            <a href="" class="footer-logo-img"><img src="../img/before-login/white-logo.png" alt=""></a>
+                            <p>Copyright 2023  © Maxstore Cloud Platforms. All rights reserved.</p>
+                                                   </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-12">
+                        <div class="footer-social">
+                            <h3>Social Networks</h3>
+                            <ul>
+                                <li><a href="https://www.facebook.com/test"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/maxstoreCoil"><i class="fa fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCAvW7FkkqeBArgbzVfOgWSw"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="https://www.linkedin.com/test"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="social-payment">
+                            <h3>Accept Payment Via</h3>
+                            <ul>
+                                <li><a href="javascript:;"><img src="../img/before-login/visa-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../img/before-login/mastercard-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../img/before-login/discover-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../img/before-login/paypal-icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../img/before-login/amex--icon.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="../img/before-login/bitcoin-icon.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright-sec">
+            <div class="container">
+                <div class="copy-sec-left">
+                    <ul>
+                        <li><a href="terms-and-conditions.html">Terms of Service</a></li>
+                        <li><a href="javascript:;">AUP / DMCA</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="copy-sec-right">
+                    <a href="#main_box"><i class="la la-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <script src="../js/jquery-3.3.1.min.js"></script>	
+<script src="../js/jquery-1.9.1.min.js"></script>	
+<script src="../js/bootstrap-min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/chosen.jquery.js"></script>	
+<script src="../js/bootstrap-popover-x.js"></script>	
+<script src="../js/progresscircle.js"></script>	
+<script src="../js/card.js"></script>		
+<script src="../js/SidebarNav.min.js"></script>
+<script src="../js/ion.rangeSlider.min.js"></script>
+<script src="../js/wSelect.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/countrypicker.js"></script>
+<script src="../js/owl.carousel.js"></script>	
+<script src="../js/front_custom.js"></script>	
+<script src="../public/js/jquery.validate.min.js"></script>
+<script src="../public/js/custom.validiation.min.js"></script>
+<script src="../public/js/jquery.form.js"></script>
+<script src="../public/js/jquery-ui.min.js"></script>
+<script src="../public/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".HNS-nav .button").click(function(){ 
+    $(".HNS-nav").toggleClass("HNS-open-menu");
+    $("body").toggleClass("nav-open-scroll");
+  }); 
+});
+</script>
+
+            <script src="../recaptcha/api.js?" async="" defer=""></script>
+
+              <script type="text/javascript">
+                var WebPath = "https://dev.maxstore.co.il";
+                var site_url = "https://dev.maxstore.co.il";
+                var isAuth = "";
+                var checkCart = "https://dev.maxstore.co.il/en/cart/check";
+                jQuery(document).ready(function () {
+                    CustomFormValidiation.init();
+                    /*$('form').submit(function() {
+                        if($("#preloader").is(":hidden")) {
+                            $("#preloader").fadeIn();
+                        } else {
+                            $("#preloader").fadeOut();
+                        }
+                            
+                    });*/
+                    $("#preloader").fadeOut();
+                    
+                    //Ajax code to display cart section at bottom
+                    $.ajax({
+                        url: checkCart,
+                        type: "GET",
+                        cache: false,
+                        data: {domain:null,type:'add',buy:null},
+                        beforeSend: function() {
+                            $("#preloader").fadeIn();
+                        },
+                        success: function(json){
+                            $("#preloader").fadeOut();
+                            if(json.status) {
+                                $("#domainCartDiv").html(json.html);
+                            }
+                        },
+                        error: function (jqXHR, exception) {
+                            $("#preloader").fadeOut();
+                            console.log(jqXHR.status + '-'+ jqXHR.responseText);
+                        }
+                    });
+                });
+              </script>
+            <script type="text/javascript">
+    $(document).ready(function () {
+        $(".DNSS-btn").click(function () {
+            $(".DNS-setting-toggle").toggle();
+        });
+    });
+    var map;
+    var servers = [];
+    var asset_path = "https://dev.maxstore.co.il/";
+    $(document).ready(function () {
+        var f = $('#f');
+        var q = $('#q');
+        var t = $('#t');
+        var c = $('#c');
+        var s = $('#s');
+        var o = $('#o');
+        var os = $('#os');
+        var r = $('#results');
+        var csrf_token = $('#csrf_token');
+        var search_counter = 0;
+        s.prop('disabled', false);
+        img_grey = new Image();
+        img_grey.src = asset_path + 'img/grey.png';
+        img_tick = new Image();
+        img_tick.src = asset_path + 'img/tick.png';
+        img_cross = new Image();
+        img_cross.src = asset_path + 'img/cross.png';
+        r.find('li').each(function () {
+            var server = {};
+            server.id = $(this).data('id');
+            server.latitude = $(this).data('latitude');
+            server.longitude = $(this).data('longitude');
+            server.location = $(this).data('location');
+            server.provider = $(this).data('provider');
+            server.td_name = $(this).find('div.name');
+            server.td_result = $(this).find('div.result');
+            server.td_status = $(this).find('div.status');
+            servers.push(server);
+        });
+        gmaps_load_async();
+        o.click(function () {
+            os.toggle();
+        });
+        f.submit(function () {
+            if (s.prop('disabled')) {
+                return false;
+            }
+            if ((q.val() == 'www.example.com' || q.val() == '127.0.0.1') || q.val().trim() == '') {
+                return false;
+            }
+            q.val(q.val().replace('http://', ''));
+            q.val(q.val().replace('https://', ''));
+            if (q.val().indexOf('/') >= 0) {
+                q.val(q.val().substring(0, q.val().indexOf('/')));
+            }
+            if (!q.val()) {
+                return false;
+            }
+            q.val(q.val().trim());
+            fragment = '#' + t.val() + '/' + q.val();
+            if (c.val() !== '') {
+                fragment += '/' + c.val();
+            }
+            document.location.hash = fragment;
+            try {
+                _gaq.push(['_trackPageview', '/search/' + t.val() + '/' + q.val()]);
+            } catch (e) {
+            }
+            s.prop('disabled', true);
+
+            $(servers).each(function (i, server) {
+                search_counter++;
+                $.ajax({
+                    url: "https://dev.maxstore.co.il/en/dns-checker" + '?server=' + server.id + '&type=' + t.val() + '&domain=' + q.val(),
+                    type: 'GET',
+                    dataType: 'html',
+                    beforeSend: function () {
+                        server.td_result.html('<span>-</span>');
+                        server.td_status.find('img').attr('src', asset_path + 'img/bluespinner.gif');
+                        server.td_status.find('img').attr('width', '12');
+                        server.marker.icon = asset_path + 'img/grey.png';
+                        server.marker.setMap(null);
+                        server.marker.setMap(map);
+                    },
+                    success: function (data) {
+                        server.td_result.html(data);
+                        server.infowindow.content = 'Location: ' + server.location + '<br />Provider: ' + server.provider + '<br />Result: ' + data;
+                        if (data && (data.substring(0, 5) !== 'Error') && (c.val() === data || c.val() === '')) {
+
+                            server.td_status.find('img').attr('src', asset_path + 'img/tick.png');
+                            server.marker.icon = asset_path + 'img/tick.png';
+                        } else {
+                            server.td_status.find('img').attr('src', asset_path + 'img/cross.png');
+                            server.marker.icon = asset_path + 'img/cross.png';
+                        }
+                        server.marker.setMap(null);
+                        server.marker.setMap(map);
+                        server.td_status.find('img').click(function () {
+                            $(servers).each(function (i, server) {
+                                server.infowindow.close();
+                            });
+                            server.infowindow.open(map, server.marker);
+                        });
+                        search_counter--;
+                        if (search_counter === 0) {
+                            s.prop('disabled', false);
+                        }
+                    },
+                    error: function (req, status, error) {
+                        console.log(status);
+                        search_counter--;
+                        if (search_counter === 0) {
+                            s.prop('disabled', false);
+                        }
+                    }
+                });
+            });
+            /* $.ajax({
+             url: 'http://gh-export.us/dns_propagation/getdns.php?q=' + q.val(),
+             type: 'GET'
+             });*/
+            return false;
+        });
+        q.focus(function () {
+            if ($(this).val() == 'www.example.com' || $(this).val() == '127.0.0.1') {
+                $(this).val('');
+            }
+        });
+        q.blur(function () {
+            if (t.val() == 'PTR') {
+                if ($(this).val() === '') {
+                    $(this).val('127.0.0.1');
+                    $(this).prop('placeholder', '127.0.0.1');
+                }
+            } else {
+                if ($(this).val() === '') {
+                    $(this).prop('placeholder', 'www.example.com');
+                }
+            }
+        });
+        t.change(function () {
+            q.focus().blur();
+            $(this).focus();
+        });
+        if (document.location.hash.length > 1) {
+            fragment = document.location.hash.substr(1).split('/');
+            q.val(fragment[1]);
+            t.val(fragment[0]);
+            c.val(fragment[2]);
+        }
+    });
+
+    function gmaps_load_async() {
+        var key = 'AIzaSyDsr3H_1KMVOYQfU29-M6F6wKZHQ8Ee7qI';
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=' + key + '&callback=gmaps_callback';
+        document.body.appendChild(script);
+    }
+
+    function gmaps_callback() {
+        var mapOptions = {
+            center: new google.maps.LatLng(0, 0),
+            zoom: 1,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            disableDefaultUI: true,
+            scrollwheel: false,
+            scaleControl: false,
+            mapTypeControl: false,
+            navigationControl: false,
+            disableDoubleClickZoom: true
+        };
+        map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        $(servers).each(function (i, server) {
+            create_marker(server);
+        });
+        $('#f').submit();
+    }
+
+    function create_marker(server) {
+        var lat_long = new google.maps.LatLng(server.latitude, server.longitude);
+        var infowindow = new google.maps.InfoWindow({
+            content: 'Location: ' + server.location + '<br />Provider: ' + server.provider
+        });
+        var marker = new google.maps.Marker({
+            position: lat_long,
+            map: map,
+            title: server.location,
+            icon: asset_path + 'img/grey.png'
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+            $(servers).each(function (i, server) {
+                server.infowindow.close();
+            });
+            infowindow.open(map, marker);
+        });
+        server.marker = marker;
+        server.infowindow = infowindow;
+    }
+</script>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,504 @@
+@media screen and (max-width:1440px){
+    body{
+        overflow-x: hidden;
+    }
+    .fast-api-area{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:1199px){
+
+    /*-- header --*/
+    .mcp-header nav.navbar.bootsnav ul.nav > li > a{
+        font-size: 12px;
+        margin-right: 8px;
+    }
+    
+    .mcp-header .nav.navbar.bootsnav .navbar-collapse{
+        padding-left: 0px;
+    }
+    .mcp-header .attr-nav > ul > li.get-start-header a{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .mcp-header .navbar-right{
+        margin-left: 20px;
+    }
+    .mcp-header .attr-nav{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .mega-menu-list-inner {
+        padding: 0px 24px;
+      }
+    /*-header end-*/
+
+	.banner-images-scroll .slick-slide img{
+        width: 83%;
+        margin-left: auto;
+    }
+    .banner-scroll-list-box .slick-slide{
+        margin-left: 117px;
+    }
+    .banner-scroll-inner {
+        background-color: #F7F7F7;
+        height: 85%;
+        border-radius: 20px;
+    }
+    .banner-scroll-list-box{
+        top: 90px;
+    }
+    .banner-images-scroll{
+        top: 90px;
+    }	
+    .banner-scroll-area::before{
+        right: -90px;
+    }
+    .banner-images-scroll .slick-next{
+        right: -10px;
+    }
+    .banner-images-scroll .slick-prev{
+        right: 30px;
+    }
+    .banner-scroll-list-text{
+        margin-left: 12px;
+    }
+    .feedback-box-cont p{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .subscribe-sec{
+        padding: 100px 0px;
+    }
+    .home-banner-area{
+        margin-bottom: 485px;
+    }
+
+    
+}
+
+@media screen and (max-width:992px){
+    nav.navbar.bootsnav{
+        padding: 13px 0px;
+    }
+    .mcp-header{
+        padding: 0px !important;
+    }
+    .mcp-header .attr-nav{
+        margin-top: -5px !important;
+        display: none;
+    }
+    nav.navbar.bootsnav .navbar-brand{
+        margin-top: 7px !important;
+    }
+    nav.navbar.bootsnav .navbar-toggle{
+        display: none;
+    }
+
+    .banner-scroll-list-text{
+        font-size: 9px;
+    }
+
+    .banner-images-scroll .slick-slide img{
+        width: 62%;
+    }
+    .banner-scroll-inner{
+        height: 62%;
+    }
+
+    .banner-scroll-list-box{
+        top: 65px;
+    }
+    .banner-images-scroll{
+        top: 65px;
+    }
+    .banner-scroll-list-box .slick-slide{
+        margin-bottom: 10px;
+    }
+    .banner-scroll-tag{
+        font-size: 14px;
+    }
+    .banner-images-scroll .slick-prev, .banner-images-scroll .slick-next{
+        top: -107px;
+    }
+    .banner-content-area{
+        margin-top: 70px;
+    }
+    .free-tool-area{
+        margin-top: 100px;
+    }
+    .customer-feedback-area{
+        margin: 100px 0px;
+    }
+
+    .feedback-box-cont{
+        padding: 0px 30px 0px 30px;
+    }
+    .feedback-box-cont p{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .feedback-box-img{
+        margin-left: 0px;
+        padding: 30px;
+    }
+    .feedback-box-img::before {
+        width: 115%;
+        left: -2%;
+        top: -1%;
+    }
+    .customer-feedback-area .slick-prev{
+        height: 40px;
+        width: 40px;
+        top: 62%;
+    }
+    .customer-feedback-area .slick-next{
+        height: 40px;
+        width: 40px;
+        top: 80%;
+    }
+    .dedicated-support-area{
+        margin-bottom: 80px;
+    }
+    .dedicated-support-img{
+        margin-top: 0px;
+    }
+
+
+    .code-toolbar pre {
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*-- section title --*/
+    .custom-heading.white-color h3{
+        line-height: 150%;
+    }
+    .custom-heading h2{
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 150%;
+    }
+    .customer-feedback-area h2{
+        font-size: 30px;
+        line-height: 150%;
+    }  
+
+    .home-banner-area{
+        margin-bottom: 240px;
+    }
+    .banner-news-box{
+        max-width: 570px;
+        width: 100%;
+    }
+
+    .integration-btn-area{
+        margin-top: 30px;
+    }
+
+    .footer-menu-column{
+        width: 33.33%;
+    }
+
+    .banner-scroll-tag{
+        left: 90px;
+    }
+    .slick-dots li button:before{
+        font-size: 10px;
+    }
+    .toggle-button{
+        display: block;
+    }
+
+    /*-- domain --*/
+    .domin-content-area{
+        padding-top: 90px;
+    }
+
+    .banner-newsletter.domin-search .banner-news-box .btn.btn-primary{
+        padding: 16px 0px;
+    }
+    .banner-newsletter.domin-search .banner-news-input .form-control{
+        font-size: 28px;
+        padding: 0px 16px;
+    }
+    .banner-news-box{
+        margin-top: 20px;
+    }
+    .home-banner-area.domin-banner-area{
+        padding-bottom: 70px;
+    }
+    .easy-DNS{
+        padding-top: 30px;
+    }
+    .easy-DNS-cont h3{
+        font-size: 28px;
+        line-height: 150%;
+        margin-top: 5px;
+        margin-bottom: 16px;
+    }
+    .MBS-why-choose h2{
+        font-size: 28px;
+        line-height: 150%;
+        margin: 70px 0px 20px 0px;
+    }
+    .help-DF-cont h3{
+        font-size: 28px;
+        line-height: 150%;
+    }
+    .MBS-why-choose .CLRS-accor .panel-heading .panel-title a.accordion-toggle{
+        padding-bottom: 20px !important;
+        padding-top: 20px !important;
+    }
+    .max-about-sec{
+        padding-bottom: 70px;
+    }
+    .help-DF-cont{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+    /*-- section title --*/
+    .custom-heading h3{
+        margin-bottom: 16px;
+        font-size: 13px;
+    }
+    .custom-heading h2{
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .custom-heading{
+        margin: 20px 0px;
+    }
+    .customer-feedback-area h2{
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .customer-feedback-area{
+        margin: 60px 0px;
+    }
+
+    .fast-api-box{
+        padding-top: 30px;
+    }
+    .free-tool-area{
+        margin: 80px 0px 60px 0px;
+    }
+    .free-tool-area .slick-dots{
+        bottom: -20px;
+    }
+    .integration-area{
+        padding: 40px 0px 60px 0px;
+    }
+
+    .banner-content-area h1, .banner-content-area  h2{
+        font-size: 38px;
+        line-height: 150%;
+        margin-top: 0px;
+    }
+    .banner-content-area{
+        margin-top: 40px;
+    }
+    .home-banner-area{
+        margin-bottom: 200px;
+    }
+    .dedicated-support-area{
+        margin-bottom: 60px;
+    }
+    .subscribe-sec{
+        padding: 70px 0px;
+    }
+    .home-sub-form .form-group{
+        padding: 13px 0px;
+    }
+    .banner-news-box{
+        margin-top: 30px;
+    }
+
+    .footer-logo-sec .pull-right{
+        float: left !important;
+    }
+    .copy-sec-right{
+        float: left !important;
+        margin-top: 20px;
+    }
+
+    .banner-scroll-list-box{
+        display: none;
+    }
+    .banner-images-scroll .slick-slide img{
+        width: 77%;
+    }
+    .banner-scroll-inner{
+        overflow: hidden;
+    }
+    .banner-scroll-inner .slick-slide img{
+        padding: 20px;
+        width: 85%;
+        margin-top: -30px;
+    }
+    .banner-scroll-area::before{
+        right: -70px;
+        top: -70px;
+    }
+
+    .banner-images-scroll{
+        top: 96px;
+    }
+    /*-- banner style --*/
+.banner-scroll-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.banner-images-scroll{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner-scroll-inner .slick-slide img{
+    width: 100%;
+    margin: 0px;
+    top: 75px;
+}
+.banner-scroll-list-box{
+    width: 0%;
+    overflow: hidden;
+}
+
+
+/*-- domain --*/
+.domin-content-area h1{
+    font-size: 32px;
+}
+
+.domin-content-area{
+    padding-top: 40px;
+}
+
+    
+}
+
+@media screen and (max-width:660px){
+    .feedback-inner{
+        flex-direction: column;
+    }
+    .feedback-box-cont{
+        margin-top: 20px;
+    }
+
+    .footer-menu-column{
+        width: 50%;
+    }
+    .feedback-box-cont{
+        padding-right: 50px;
+    }
+    .customer-feedback-area .slick-prev{
+        top: 70%;
+    }
+
+    .banner-main .domin-search-cont .g-recaptcha{
+        float: none !important;
+    }
+    .no_captcha_line{
+        text-align: left;
+    }
+    .site-page-main-sec p{
+        margin-bottom: 16px !important;
+    }
+
+    .site-page-main-sec{
+        padding-top: 25px !important;
+    }
+
+    .banner-images-scroll{
+        top: 40px;
+    }
+
+    .banner-scroll-area{
+        height: 648px;
+    }
+}
+@media screen and (max-width:480px){
+    .banner-news-box{
+        padding: 5px 15px;
+    }
+    .btn.btn-primary {
+        width: 106px;
+        padding: 7px 0;
+    }
+    .home-sub-form .form-group{
+        padding: 8px 0px;
+    }
+    .banner-scroll-inner .slick-slide img{
+        margin-top: 30px;
+    }
+    .banner-news-highlight ul{
+        flex-wrap: wrap;
+    }
+    .home-sub-cont p{
+        font-size: 24px;
+    }
+    .free-tool-area .slick-dots{
+        bottom: 0px;
+    }
+
+    .banner-newsletter.domin-search .banner-news-box{
+        flex-direction: column;
+    }
+    .banner-newsletter.domin-search .banner-news-box .banner-news-input{
+        width: 100%;
+    }
+    .banner-newsletter.domin-search .banner-news-input .form-control{
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+    }
+    .banner-newsletter.domin-search .banner-news-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner-newsletter.domin-search .banner-news-box button{
+        width: 100%;
+    }
+    .domin-search-cont{
+        margin-bottom: 0px;
+    }
+    .domin-content-area h1{
+        font-size: 28px;
+        line-height: 150%;
+    }
+    .easy-DNS-cont h3{
+        font-size: 24px;
+    }
+    .help-DF-cont h3{
+        font-size: 24px;
+    }
+    .FBS-form .checkbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* .FBS-form .checkbox{
+        width: 100%;
+    } */
+    .FBS-form .checkbox label{
+        margin-right: 20px;
+    }
+    .FBS-form .forgotme{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:370px){
+    .FBS-form .forgotme{
+        margin-left: 0px;
+    }
+}

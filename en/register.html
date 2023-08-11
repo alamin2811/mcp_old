@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+        <title>Register - Maxstore</title>
+        <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+        <link media="all" type="text/css" rel="stylesheet" href="../public/css/main.css?v=8">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/material-design-iconic-font.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/designer.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/developer.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/responsive.css">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <div class="access-icon">
+            <a href="javascript:void(0)"><img src="../img/accessibility-web.png" class="access-img"></a>
+        </div>
+        <!--<div id="preloader"></div>-->
+        <section>
+            <link media="all" type="text/css" rel="stylesheet" href="../lobibox/dist/css/lobibox.min.css">
+<script src="../lobibox/lib/jquery.1.11.min.js"></script>
+<script src="../lobibox/js/lobibox.js"></script>
+        <style type="text/css">
+.lobibox-notify-msg{max-height:600px !important;}
+</style>
+<script type="text/javascript">
+function ConfirmDeleteLovi(id,title,href)
+{
+	Lobibox.confirm({
+	title: title+' Confirmation',
+	msg: 'Are you sure you, want to '+title+'?',
+	callback: function ($this, type, ev) {
+		if (type === 'yes'){
+				if(title == 'Restore' || title == 'Active' || title == 'Inactive'){
+					window.location.href = href;
+				}else{
+                    if(href == 'logout'){
+                        $("#"+id).submit();  
+                        return true;
+                    }else{
+                        $("."+id).submit();  
+                    } 
+				}
+			}else{
+				return false;
+			}
+		}
+	});
+}
+</script>
+ <div class="hideshow" style="display: none;">
+  <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  <div class="blockUI blockMsg blockPage" style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+      <i class="icon-spinner3 spinner"></i>
+  </div>
+</div>            <div class="main-area"> 
+        <div class="login-page-area">
+            <div class="particles-sec"></div>
+            <div class="field-box-sec">
+                <div class="FBS-logo"><a href="../index.htm"><img src="../img/logo-blue.png" alt="logo"></a></div>
+                <div class="FBS-heading">
+                    <h1>Create Your Account</h1>
+                    <p>Get started with Maxstore</p>
+                </div>
+                <div class="FBS-form">
+                    <form class="" role="form" id='create-user' method="POST" action="https://dev.maxstore.co.il/en/register">
+                        <input type="hidden" name="_token" value="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+                        <input type="hidden" class="form-control" name="provider" value="">
+                        <input type="hidden" class="" name="provider_id" value="">
+                        <div class="form-group cus-protext">
+                            <span class="text-heading">Full Name</span>
+                            <input id="name" type="text" class="form-control" name="name" value="" placeholder="" required="">
+                        </div>
+                        
+                        <div class="form-group cus-protext">
+                           <span class="text-heading">Email</span>
+                           <input id="email" type="text" class="form-control" name="email" value="" placeholder="">
+                        </div>
+                         <div class="form-group ">
+                        <div data-sitekey="6LchOs0ZAAAAAOMyHVXPiZyYtHpq8BJOddnbw1LP" class="g-recaptcha"></div>
+                                                 </div>
+                        <div class="full-btn-area">
+                            <button type="submit" class="full-btn">Sign Up</button>
+                        </div>
+                        
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">
+                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                            Sign up for Maxstore updates &amp; offers. You can unsubscribe at any time
+                          </label>
+                        </div>
+                        
+                        <div class="login-with-head">
+                            <span>Or Login With</span>
+                        </div>
+                        
+                        <div class="social-login">
+                            <ul>
+                                <li><button type="button" class="SL-btn fb socialLogin" data-redirect="https://dev.maxstore.co.il/auth/facebook"><i class="zmdi zmdi-facebook"></i></button></li>
+                                <li><button type="button" class="SL-btn google_plus socialLogin" data-redirect="https://dev.maxstore.co.il/auth/google"><i class="zmdi zmdi-google"></i></button></li>
+                                <li><button type="button" class="SL-btn twi socialLogin" data-redirect="https://dev.maxstore.co.il/auth/twitter"><i class="zmdi zmdi-twitter"></i></button></li>
+                                <li><button type="button" class="SL-btn linked socialLogin" data-redirect="https://dev.maxstore.co.il/auth/linkedin"><i class="zmdi zmdi-linkedin"></i></button></li>
+                            </ul>
+                        </div>
+                        <div class="login-footer-sec">
+                            <div class="login-footer-cont">
+                               By signing up, you agree to the <a target="_blank" href="terms-and-conditions.html" title="terms of service">terms of service </a> and  <a href="privacy-policy.html" target="_blank">privacy policy</a>
+                            </div>
+                            
+                            <div class="login-footer-cont">
+                                Already have an account? <a href="../login.html" title="Log in"> Sign In</a>  
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+               <footer>
+    <div class="bottom-footer">
+        <div class="left-foot">
+            
+        </div>
+        <div class="right-foot">
+            @ MAXSTORE 2018
+        </div>
+    </div>
+</footer>        </div>
+</div>
+
+            <!-- <script src="https://dev.maxstore.co.il/public/js/jquery-1.10.2.min.js"></script> -->
+<script src="../public/js/jquery-3.3.1.min.js"></script>
+<script src="../public/js/swiper.min.js"></script>
+<script src="../public/js/jquery.validate.min.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="../public/js/custom.validiation.min.js"></script>
+<script src="../public/js/jquery.form.js"></script>
+<script src="../public/js/chosen.jquery.js"></script>
+        </section>
+              <script src="../recaptcha/api.js?" async="" defer=""></script>
+
+              <script type="text/javascript">
+                jQuery(document).ready(function () {
+                     CustomFormValidiation.init();
+                     $("#preloader").fadeOut();
+                });
+              </script>
+            <script type='text/javascript'>
+$('.socialLogin').click(function(){
+  window.location.href = $(this).data('redirect');
+});
+jQuery("#create-user").validate({
+        errorElement: "span", // contain the error msg in a span tag
+        errorClass: 'help-block',
+        errorPlacement: function (error, element) { // render error placement for each input type
+            if (element.attr("type") == "radio" || element.attr("type") == "checkbox") { // for chosen elements, need to insert the error after the chosen container
+                error.insertAfter($(element).closest('.form-group').children('div').children().last());
+            } else if (element.attr("name") == "dd" || element.attr("name") == "mm" || element.attr("name") == "yyyy") {
+                error.insertAfter($(element).closest('.form-group').children('div'));
+            } else {
+                error.insertAfter(element);
+                // for other inputs, just perform default behavior
+            }
+        },
+         rules: {
+            'name' : {
+                required : true,
+                lettersonly : true
+            }, 
+            'email': {
+              required: true,
+              email: true
+            },
+            'password': {
+                required : true,
+                minlength: 6
+            },
+            'password_confirmation': {
+                equalTo: "#password"
+            },
+            'country' : {
+                required : true
+            },
+            'state' : {
+                required : true
+            },
+            'city' : {
+                required : true
+            },
+            'zipcode' : {
+                required : true
+            },
+            'address' : {
+                required : true
+            },
+            'mobile_number' : {
+                required : true,
+                number: true
+            }
+        },
+        highlight: function (element) {
+            $(element).closest('.help-block').removeClass('valid');
+            // display OK icon
+            $(element).closest('.form-group').removeClass('has-success').addClass('has-error').find('.symbol').removeClass('ok').addClass('required');
+            // add the Bootstrap error class to the control group
+        },
+        unhighlight: function (element) { // revert the change done by hightlight
+            $(element).closest('.form-group').removeClass('has-error');
+            // set error class to the control group
+        },
+        success: function (label, element) {
+            label.addClass('help-block valid');
+            // mark the current input as valid and display OK icon
+            //$(element).closest('.form-group').removeClass('has-error').addClass('has-success').find('.symbol').removeClass('required').addClass('ok');
+        }
+});
+
+jQuery.validator.addMethod("lettersonly", function(value, element) {
+  return this.optional(element) || /^[a-z," "]+$/i.test(value);
+}, "The name may only contains letters");
+</script>
+    </body>
+</html>

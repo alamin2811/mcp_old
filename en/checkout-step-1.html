@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+        <title>Checkout - Sign In - Maxstore</title>
+        <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+       <!--  <link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/main.css?v=8">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/material-design-iconic-font.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/designer.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/developer.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://dev.maxstore.co.il/public/css/responsive.css">
+ -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/material-design-iconic-font.min.css" rel="stylesheet"> 
+        <link href="../css/all-font.css" rel="stylesheet"> 
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/line-awesome.min.css" rel="stylesheet">
+        <link href="../css/chosen.css" rel="stylesheet">
+        <link href="../css/SidebarNav.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-popover-x.css" rel="stylesheet">
+        <link href="../css/progresscircle.css" rel="stylesheet">
+        <link href="../css/owl.carousel.min.css" rel="stylesheet">
+        <link href="../css/wSelect.css" rel="stylesheet">
+        <link href="../css/designer.css" rel="stylesheet">
+        <link href="../css/developer.css" rel="stylesheet">
+        <link href="../css/frontend.css" rel="stylesheet">
+        <link href="../css/responsive.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body class="sticky-header">
+        <div class="access-icon">
+            <a href="javascript:void(0)"><img src="../img/accessibility-web.png" class="access-img"></a>
+        </div>
+        <!-- Preloader -->
+        <!--<div id="preloader"></div>-->
+        <section class="main" id="main_box">
+            <header>
+        <div class="home-nav-sec log-tran-domin">
+            <div class="HNS-nav">
+                <nav id="cssmenu">
+                    <div class="logo"><a href="../index.htm"><img src="../img/logo-blue.png" alt=""></a></div>
+                    <div class="HNSN-right">
+                        <ul>
+                            <li>
+                               <div class="HNSHRMR-btn HNSHRMR-dropi">
+                                        <div class="my_account_dropi language-dropi">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                        <img src="../img/before-login/global-icon.png" alt="" class="language-dropi-img language-noscroll-icon"> 
+                                                        <img src="../img/before-login/global-icon-scroll.png" alt="" class="language-dropi-img language-scroll-icon"> 
+                                                        <i class="la la-angle-down"></i>
+                                                  </button>
+                                                  <ul class="dropdown-menu" role="menu">
+                                                                                                                                                                                                                                        <li class="border_none  active  "><a href="checkout-step-1.html">English</a></li>
+                                                                                                                                                                                                                                                                                                    <li class="border_none  "><a href="javascript:void(0)">Hebrew (Soon)</a></li>
+                                                                                                                                                                      </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="domain.html" class="LT-domin-close"><i class="la la-close"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                                       
+                </nav>
+            </div>
+        </div>
+    </header>                    <link media="all" type="text/css" rel="stylesheet" href="../lobibox/dist/css/lobibox.min.css">
+<script src="../lobibox/lib/jquery.1.11.min.js"></script>
+<script src="../lobibox/js/lobibox.js"></script>
+        <style type="text/css">
+.lobibox-notify-msg{max-height:600px !important;}
+</style>
+<script type="text/javascript">
+function ConfirmDeleteLovi(id,title,href)
+{
+	Lobibox.confirm({
+	title: title+' Confirmation',
+	msg: 'Are you sure you, want to '+title+'?',
+	callback: function ($this, type, ev) {
+		if (type === 'yes'){
+				if(title == 'Restore' || title == 'Active' || title == 'Inactive'){
+					window.location.href = href;
+				}else{
+                    if(href == 'logout'){
+                        $("#"+id).submit();  
+                        return true;
+                    }else{
+                        $("."+id).submit();  
+                    } 
+				}
+			}else{
+				return false;
+			}
+		}
+	});
+}
+</script>
+ <div class="hideshow" style="display: none;">
+  <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  <div class="blockUI blockMsg blockPage" style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+      <i class="icon-spinner3 spinner"></i>
+  </div>
+</div>                    <section class="LT-domin-sec">
+    <div class="LT-domin-cont-box">
+        <div class="container">
+            <div class="LTDC-box-mid check-step-mid">
+                <div class="checkout-step-sec">
+                    <div class="check-step-box three-stepprogress">
+                        <ul>
+                            <li class="active">
+                                <div class="check-stepB-count">
+                                    1
+                                </div>
+                                <p>Sign In</p>
+                            </li>
+                            <li>
+                                <div class="check-stepB-count">
+                                    2
+                                </div>
+                                <p>Payment</p>
+                            </li>
+                            <li>
+                                <div class="check-stepB-count">
+                                    3
+                                </div>
+                                <p>Complete Order</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="check-step-cont">
+                        <div class="row">  
+                            <div class="col-md-7 col-sm-12 col-xs-12">
+                                <div class="check-stepCon-left">    
+                                    <form id="login-form" class="form-validiation" role="form" method="POST" action="https://dev.maxstore.co.il/login">
+                                        <input type="hidden" name="_token" value="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+                                        <input type="hidden" name="page_back" value="checkout">
+                                        <div class="regis-trans-domin">
+                                            <h3>Sign in here <div class="CSP-log-right">Not registered ? <a href="checkout-billing-step.html">Register here</a></div></h3>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group cus-protext">
+                                                        <span class="text-heading">Email</span>
+                                                        <input class="form-control" required="required" placeholder="Email" name="email" type="text">
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group cus-protext">
+                                                        <span class="text-heading">Password</span>
+                                                        <input id="password" type="password" class="form-control" name="password" placeholder="Password" required="">
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="term-box log-oldUser">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="remember" id="remember">
+                                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                                        Remember me
+                                                    </label>
+                                                </div>  
+
+                                                <div class="for-pass"><a href="forget.html">Forget your password ?</a></div>
+                                            </div>
+
+                                            <div class="full-btn-area small-btn">
+                                                <button type="submit" class="full-btn">Sign In</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 col-sm-12 col-xs-12" id="checkoutCartSection">
+                                <!-- Don not remove this div. Checkout cart section will be displayed here -->
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                       <script src="../js/jquery-3.3.1.min.js"></script>	
+<script src="../js/jquery-1.9.1.min.js"></script>	
+<script src="../js/bootstrap-min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/chosen.jquery.js"></script>	
+<script src="../js/bootstrap-popover-x.js"></script>	
+<script src="../js/progresscircle.js"></script>	
+<script src="../js/card.js"></script>		
+<script src="../js/SidebarNav.min.js"></script>
+<script src="../js/ion.rangeSlider.min.js"></script>
+<script src="../js/wSelect.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/countrypicker.js"></script>
+<script src="../js/owl.carousel.js"></script>	
+<script src="../js/front_custom.js"></script>	
+<script src="../public/js/jquery.validate.min.js"></script>
+<script src="../public/js/custom.validiation.min.js"></script>
+<script src="../public/js/jquery.form.js"></script>
+<script src="../public/js/jquery-ui.min.js"></script>
+<script src="../public/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".HNS-nav .button").click(function(){ 
+    $(".HNS-nav").toggleClass("HNS-open-menu");
+    $("body").toggleClass("nav-open-scroll");
+  }); 
+});
+</script>
+
+            <script src="../recaptcha/api.js?" async="" defer=""></script>
+
+              <script type="text/javascript">
+                var site_url = "https://dev.maxstore.co.il";
+                jQuery(document).ready(function () {
+                     CustomFormValidiation.init();
+                });
+                $("#preloader").fadeOut();
+              </script>
+            <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../public/js/jquery.form.js"></script>
+<script type="text/javascript">
+    var cartUpdate = "https://dev.maxstore.co.il/en/checkout-cart-show";
+    
+    (function ($) {
+        $(window).on("load", function () {
+            $(".link_scroll").mCustomScrollbar({
+                theme: "minimal",
+            });
+        });
+    })(jQuery);
+    
+    var transJs = JSON.parse('{"added":"Added","add_to_cart":"Add to Cart","only_paypal_msg":"Currently, Only PayPal payment is supported","select_payment":"Please select Method of Payment","t_c_msg":"You must agree to T&C before proceeding","domain_unavailable_msg":"Oops! Below domain(s) became unavailable. Please remove below from cart or choose other domain to contiune","nameserver":"Nameserver","enter_nameserver":"Enter Nameserver","went_wrong":"Something went wrong. Refresh the page and try again","confirm_msg":"Are you sure you want to continue?","valid_domain_msg":"Please enter a valid domain","select_msg":"Please select an option to contiune","confirm":"Confirm","required":"*Required","valid_email":"Invalid email address","valid_phone":"Invalid phone number","required_length_error":"Please fill all required field","select_record_msg":"Please select an record to contiune","yes_proceed":"Yes, please proceed!","no_cancel":"No, cancel it!","record_updated_success_msg":"Record updated sucessfully!","no_payment_selected":"Please select payment method to continue","email_sent":"Email sent successfully!","date_from_to_error":"Please select dates","unsaved_alert":"Changes you made may not be saved","not_deleted":"Record could not be deleted","confirm_delete_msg_with_child":"Deleting this will also delete its associated records. Are you sure you want to continue?","no_card_option":"Please select card option to continue","only_chars_msg":"Only characters are allowed","only_eng_chars_msg":"Only english characters are allowed","list_required":"Please choose one of list options from the dropdown to continue","duplicate_found":"Duplicate record found"}');
+</script>
+<script src="../assets/frontend/js/checkout.js"></script>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+        <title>Reset Password - Maxstore</title>
+        <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+        <link media="all" type="text/css" rel="stylesheet" href="../public/css/main.css?v=8">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/material-design-iconic-font.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/designer.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/developer.css">
+<link media="all" type="text/css" rel="stylesheet" href="../public/css/responsive.css">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <div class="access-icon">
+            <a href="javascript:void(0)"><img src="../img/accessibility-web.png" class="access-img"></a>
+        </div>
+        <!--<div id="preloader"></div>-->
+        <section>
+            <link media="all" type="text/css" rel="stylesheet" href="../lobibox/dist/css/lobibox.min.css">
+<script src="../lobibox/lib/jquery.1.11.min.js"></script>
+<script src="../lobibox/js/lobibox.js"></script>
+        <style type="text/css">
+.lobibox-notify-msg{max-height:600px !important;}
+</style>
+<script type="text/javascript">
+function ConfirmDeleteLovi(id,title,href)
+{
+	Lobibox.confirm({
+	title: title+' Confirmation',
+	msg: 'Are you sure you, want to '+title+'?',
+	callback: function ($this, type, ev) {
+		if (type === 'yes'){
+				if(title == 'Restore' || title == 'Active' || title == 'Inactive'){
+					window.location.href = href;
+				}else{
+                    if(href == 'logout'){
+                        $("#"+id).submit();  
+                        return true;
+                    }else{
+                        $("."+id).submit();  
+                    } 
+				}
+			}else{
+				return false;
+			}
+		}
+	});
+}
+</script>
+ <div class="hideshow" style="display: none;">
+  <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  <div class="blockUI blockMsg blockPage" style="z-index: 1011;position: fixed;padding: 15px;margin: 0px;width: 30%;top: 40%;left: 35%;text-align: center;color: rgb(255, 255, 255);border: medium none;cursor: wait;border-radius: 10px;opacity: 0.5;">
+      <i class="icon-spinner3 spinner"></i>
+  </div>
+</div>            <div class="main-area reset-password-page"> 
+    <div class="login-page-area">
+        <div class="particles-sec"></div>
+        <div class="field-box-sec">
+            <div class="FBS-logo"><a href="../index.htm"><img src="../img/logo-blue.png" alt="logo"></a></div>
+            <div class="FBS-heading">
+                <h1>Reset Password</h1>
+            </div>
+            <div class="FBS-form">
+                <form class="form-validiation" role="form" method="POST" action="https://dev.maxstore.co.il/en/password/forget">
+                    <input type="hidden" name="_token" value="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+                    <div class="form-group cus-protext ermsg">
+                       <span class="text-heading">Email</span>
+                       <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email">
+                                            </div>
+                    
+                    <div class="full-btn-area">
+                        <button type="submit" class="full-btn">Send Reset Password Link</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+           <footer>
+    <div class="bottom-footer">
+        <div class="left-foot">
+            
+        </div>
+        <div class="right-foot">
+            @ MAXSTORE 2018
+        </div>
+    </div>
+</footer>    </div>
+</div>
+            <!-- <script src="https://dev.maxstore.co.il/public/js/jquery-1.10.2.min.js"></script> -->
+<script src="../public/js/jquery-3.3.1.min.js"></script>
+<script src="../public/js/swiper.min.js"></script>
+<script src="../public/js/jquery.validate.min.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="../public/js/custom.validiation.min.js"></script>
+<script src="../public/js/jquery.form.js"></script>
+<script src="../public/js/chosen.jquery.js"></script>
+        </section>
+              <script src="../recaptcha/api.js?" async="" defer=""></script>
+
+              <script type="text/javascript">
+                jQuery(document).ready(function () {
+                     CustomFormValidiation.init();
+                     $("#preloader").fadeOut();
+                });
+              </script>
+                </body>
+</html>
