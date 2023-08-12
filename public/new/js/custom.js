@@ -94,33 +94,6 @@ $('.marketPlace_scroll_img').slick({
 /*Market Place end*/
 
 
-/*Free Tool start*/
-$(".freeTool_scroll").slick({
-  dots: false,
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  responsive: [
-      {
-          breakpoint: 1024,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-			  dots:true,
-          }
-      },
-      {
-          breakpoint: 640,
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 4,
-			  dots:true,
-          }
-      },
-  ]	
-});
-/*Free Tool end*/
-
 /*feedback Tool start*/
 $(".feedback_scroll").slick({
   dots: false,
@@ -150,14 +123,57 @@ $(".dominName_scroll").slick({
       {
           breakpoint: 640,
           settings: {
-              slidesToShow: 1,
+              slidesToShow: 3,
               slidesToScroll: 1,
 			  dots:true,
           }
       },
+      {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots:true,
+        }
+    },
+    {
+        breakpoint: 370,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:true,
+        }
+    },
   ]	
 });
 /*domin name end*/
+
+/*Free Tool start*/
+$(".freeTool_scroll").slick({
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                dots: true,
+            }
+        },
+        {
+            breakpoint: 640,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+            }
+        },
+    ]
+});
+  /*Free Tool end*/
 
 /*maxstore help start*/
 $(".maxstoreHelp_scroll").slick({

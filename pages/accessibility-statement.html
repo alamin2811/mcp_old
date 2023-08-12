@@ -905,6 +905,7 @@ function ConfirmDeleteLovi(id,title,href)
 <script>
     const drawer = document.querySelector('.drawer');
     const toggleButton = document.querySelector('.toggle-menu-button');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
 
     toggleButton.addEventListener('click', () => {
         drawer.classList.toggle('open');
@@ -917,9 +918,13 @@ function ConfirmDeleteLovi(id,title,href)
             drawer.classList.remove('open');
         }
     });
+
+    // Close the drawer when clicking on an element with the class "mobile-menu-close"
+    mobileMenuClose.addEventListener('click', () => {
+        drawer.classList.remove('open');
+    });
 </script>
 <!-- mobile menu js -->
-
 
         
     </body>

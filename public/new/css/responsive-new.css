@@ -70,7 +70,7 @@
         margin-bottom: 25px;
     }
     .subscribe-sec{
-        padding: 100px 0px;
+        padding: 100px 8px;
     }
     .home-banner-area{
         margin-bottom: 485px;
@@ -260,6 +260,39 @@
         width: 100%;
         padding-left: 0px;
     }
+
+    .dedicated-support-area .pull-right{
+        float: left !important;
+    }
+    .dedicated-support-img{
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .dedicated-support-img img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .help-DF-img{
+        margin-bottom: 30px;
+    }
+
+    .MBS-why-choose .CLRS-accor .panel-default .accordion-toggle.collapsed:before{
+        top: 20px;
+    }
+    .MBS-why-choose .CLRS-accor .panel-default .accordion-toggle::before{
+        top: 20px;
+    }
+    .easy-DNS{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -298,7 +331,7 @@
 
     .banner-content-area h1, .banner-content-area  h2{
         font-size: 38px;
-        line-height: 150%;
+        line-height: 135%;
         margin-top: 0px;
     }
     .banner-content-area{
@@ -311,7 +344,7 @@
         margin-bottom: 60px;
     }
     .subscribe-sec{
-        padding: 70px 0px;
+        padding: 70px 8px;
     }
     .home-sub-form .form-group{
         padding: 13px 0px;
@@ -383,7 +416,23 @@
 .domin-content-area{
     padding-top: 40px;
 }
+.banner-content-area h1{
+    margin-bottom: 0px;
+}
 
+.dedicated-support-area .pull-right{
+    float: left !important;
+}
+.dedicated-support-img{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.dedicated-support-img img{
+    height: 100%;
+    width: 100%;
+}
     
 }
 
@@ -425,6 +474,42 @@
 
     .banner-scroll-area{
         height: 648px;
+    }
+    .fast-api-code .nav.nav-tabs{
+        padding: 0px 16px;
+    }
+
+    .banner-content-area h2::before{
+        bottom: -4px;
+    }
+
+    .home-banner-area{
+        margin-bottom: 150px;
+    }
+
+    .MBS-why-choose .CLRS-accor{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 575px){
+    .slick-dots{
+        bottom: -10px;
+    }
+
+    .slick-dots li{
+        width: 15px;
+    }
+    .slick-dots li button:before{
+        font-size: 8px;
+    }
+
+    .MBS-why-choose .CLRS-accor .panel-heading .panel-title a.accordion-toggle.collapsed, .MBS-why-choose .CLRS-accor .panel-heading .panel-title a.accordion-toggle{
+        padding-left: 26px !important;
+    }
+    .fast-api-area{
+        height: 430px;
     }
 }
 @media screen and (max-width:480px){
@@ -495,10 +580,46 @@
     .FBS-form .forgotme{
         margin-left: auto;
     }
+    .easy-DNS-cont h3{
+        width: 100%;
+    }
+    .CLRS-accor .panel-heading .panel-title a.accordion-toggle.collapsed, .MBS-why-choose .CLRS-accor .panel-heading .panel-title a.accordion-toggle{
+        font-size: 15px;
+    }
+    .copy-sec-left ul li {
+        margin: 0 16px 0px 0;
+        float: left;
+        margin-bottom: 8px;
+    }
+    
 }
 
 @media screen and (max-width:370px){
     .FBS-form .forgotme{
         margin-left: 0px;
+    }
+    .domin-content-area h1 br{
+        display: none;
+    }
+    .drawer{
+        width: 100%;
+        left: -100%;
+    }
+    .mobile-menu-top .mobile-logo{
+        margin-right: 0px;
+    }
+    .home-sub-cont p{
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .rc-anchor-normal{
+        width: 280px !important;
+    }
+    .rc-anchor-logo-portrait{
+        margin-right: 0px;
+    }
+    .rc-anchor-normal .rc-anchor-pt{
+        right: 25px;
     }
 }

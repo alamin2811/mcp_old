@@ -774,23 +774,29 @@ function ConfirmDeleteLovi(id,title,href)
 /*-- megaMenu end --*/
 </script>
 <!-- mobile menu js -->
-<script>
-    const drawer = document.querySelector('.drawer');
-    const toggleButton = document.querySelector('.toggle-menu-button');
+    <script>
+        const drawer = document.querySelector('.drawer');
+        const toggleButton = document.querySelector('.toggle-menu-button');
+        const mobileMenuClose = document.querySelector('.mobile-menu-close');
 
-    toggleButton.addEventListener('click', () => {
-        drawer.classList.toggle('open');
-    });
+        toggleButton.addEventListener('click', () => {
+            drawer.classList.toggle('open');
+        });
 
-    // Close the drawer when clicking outside of it
-    document.addEventListener('click', (event) => {
-        const target = event.target;
-        if (!drawer.contains(target) && target !== toggleButton) {
+        // Close the drawer when clicking outside of it
+        document.addEventListener('click', (event) => {
+            const target = event.target;
+            if (!drawer.contains(target) && target !== toggleButton) {
+                drawer.classList.remove('open');
+            }
+        });
+
+        // Close the drawer when clicking on an element with the class "mobile-menu-close"
+        mobileMenuClose.addEventListener('click', () => {
             drawer.classList.remove('open');
-        }
-    });
-</script>
-<!-- mobile menu js -->
+        });
+    </script>
+    <!-- mobile menu js -->
 
         
     </body>

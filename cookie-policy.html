@@ -210,135 +210,236 @@
                         <!-- End Atribute Navigation -->
                         <button class="toggle-button"><img class="toggle-menu-button"
                                 src="./public/new/images/menu-bar.svg" alt=""></button>
-                        <div class="drawer">
-                            <div class="drawer-content">
-                                <ul class="mobile-menu-top">
-                                    <li class="search"><a href="#"><img src="public/new/images/search-icon.svg"
-                                                alt=""></a>
-                                    </li>
-                                    <li class="cart" id="userCartFront">
-                                        <a href="checkout-billing-step.html"><img src="public/new/images/cart.png"
-                                                alt=""></a>
-                                        <span class="cart_count d-none"></span>
-                                    </li>
-                                    <li class="get-language-header">
-                                        <div class="my_account_dropi language-dropi">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-default dropdown-toggle"
-                                                    data-toggle="dropdown">
-                                                    <img src="public/new/images/language-icon.svg" alt=""
-                                                        class="language-dropi-img language-noscroll-icon">
-                                                    <img src="public/new/images/language-icon-scroll.svg" alt=""
-                                                        class="language-dropi-img language-scroll-icon">
-                                                    <i class="arrow-language"><img
-                                                            src="public/new/images/menu-arrow.svg" alt=""></i>
-                                                </button>
-                                                <ul class="dropdown-menu" role="menu">
-                                                    <li class="border_none  active  "><a href="index.htm">English</a>
-                                                    </li>
-                                                    <li class="border_none  "><a href="javascript:void(0)">Hebrew
-                                                            (Soon)</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <ul class="mobile-menu-list">
-                                    <li class="has-submenu">
-                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                            href="#productsAccordion">
-                                            Products
-                                        </a>
-                                        <div class="collapse" id="productsAccordion">
-                                            <ul class="mobile-menu-list mobile-menu-accordion-list">
-                                                <li class="has-submenu">
-                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                        href="#cloudAppsAccordion">
-                                                        Cloud Apps
-                                                    </a>
-                                                    <div class="collapse" id="cloudAppsAccordion">
-                                                        <ul class="mobile-submenu-list">
-                                                            <li><a href="#">WordPress</a></li>
-                                                            <li><a href="#">Joomla</a></li>
-                                                            <li><a href="#">Drupal</a></li>
-                                                            <li><a href="#">Magento</a></li>
-                                                            <li><a href="#">PrestaShop</a></li>
-                                                            <li><a href="#">OpenCart</a></li>
-                                                            <li><a href="#">Moodle</a></li>
-                                                            <li><button>Show all apps</button></li>
+                                <div class="drawer">
+                                    <div class="drawer-content">
+                                        <ul class="mobile-menu-top">
+                                            <li><a href="index.html" class="mobile-logo"><img
+                                                        src="./public/new/images/logo-blue.png" alt=""></a></li>
+                                            <li class="cart" id="userCartFront">
+                                                <a href="checkout-billing-step.html"><img src="public/new/images/cart.png"
+                                                        alt=""></a>
+                                                <span class="cart_count d-none"></span>
+                                            </li>
+                                            <li class="get-language-header">
+                                                <div class="my_account_dropi language-dropi">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                                            data-toggle="dropdown">
+                                                            <img src="public/new/images/language-icon.svg" alt=""
+                                                                class="language-dropi-img language-noscroll-icon">
+                                                            <img src="public/new/images/language-icon-scroll.svg" alt=""
+                                                                class="language-dropi-img language-scroll-icon">
+                                                            <i class="arrow-language"><img
+                                                                    src="public/new/images/menu-arrow.svg" alt=""></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li class="border_none  active  "><a href="index.htm">English</a>
+                                                            </li>
+                                                            <li class="border_none  "><a href="javascript:void(0)">Hebrew
+                                                                    (Soon)</a>
+                                                            </li>
                                                         </ul>
                                                     </div>
-                                                </li>
-                                                <li class="has-submenu">
-                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                        href="#cloudHostAccordion">
-                                                        Cloud Hosting
-                                                    </a>
-                                                    <div class="collapse" id="cloudHostAccordion">
-                                                        <ul class="mobile-submenu-list">
-                                                            <ul class="mobile-submenu-list">
-                                                                <li><a href="#">FTP Hosting</a></li>
-                                                                <li><a href="#">MySQL</a></li>
-                                                                <li><a href="#">Hosting</a></li>
-                                                                <li><a href="#">MongoDB</a></li>
-                                                                <li><a href="#">Hosted</a></li>
-                                                                <li><a href="#">NodeJS</a></li>
-                                                                <li><a href="#">Hosted</a></li>
-                                                                <li><a href="#">Laravel</a></li>
-                                                            </ul>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="has-submenu">
-                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                        href="#MarketingToolsAccordion">
-                                                        Marketing Tools
-                                                    </a>
-                                                    <div class="collapse" id="MarketingToolsAccordion">
-                                                        <ul class="mobile-submenu-list">
-                                                            <ul class="mobile-submenu-list">
-                                                                <li><a href="#">Email Marketing</a></li>
-                                                                <li><a href="#">SMS Services</a></li>
-                                                            </ul>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="has-submenu">
-                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                                        href="#CloudInstanceAccordion">
-                                                        Cloud Instance
-                                                    </a>
-                                                    <div class="collapse" id="CloudInstanceAccordion">
-                                                        <ul class="mobile-submenu-list">
-
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Domains</a></li>
-                                    <li><a href="#">Marketplace</a></li>
-                                    <li>
-                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                            href="#freeToolsAccordion">
-                                            Free Tools
-                                        </a>
-                                        <div class="collapse" id="freeToolsAccordion">
-                                            <ul class="mobile-menu-list mobile-menu-accordion-list">
-                                                <li><a href="#">Tool 1</a></li>
-                                                <li><a href="#">Tool 2</a></li>
-                                                <!-- Add more submenu items here -->
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#" class="register">Get Started</a></li>
-                                    <li><a href="#" class="login">Login</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                                                </div>
+                                            </li>
+                                            <li><button class="mobile-menu-close"><img src="public/new/images/xmark.svg"
+                                                        alt="icon"></button></li>
+                                        </ul>
+                                        <form class="mobile-search-form" action="/">
+                                            <button type="button"><img src="public/new/images/search-icon.svg" alt=""></button>
+                                            <input type="text" placeholder="search">
+                                        </form>
+                                        <ul class="mobile-menu-list pl-0">
+                                            <li class="has-submenu">
+                                                <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                    href="#productsAccordion">
+                                                    Products
+                                                </a>
+                                                <div class="collapse" id="productsAccordion">
+                                                    <ul class="mobile-menu-list mobile-menu-accordion-list">
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#cloudAppsAccordion">
+                                                                Cloud Apps
+                                                            </a>
+                                                            <div class="collapse" id="cloudAppsAccordion">
+                                                                <ul class="mobile-submenu-list">
+                                                                    <li><a href="#">WordPress</a></li>
+                                                                    <li><a href="#">Joomla</a></li>
+                                                                    <li><a href="#">Drupal</a></li>
+                                                                    <li><a href="#">Magento</a></li>
+                                                                    <li><a href="#">PrestaShop</a></li>
+                                                                    <li><a href="#">OpenCart</a></li>
+                                                                    <li><a href="#">Moodle</a></li>
+                                                                    <li><button>Show all apps</button></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#cloudHostAccordion">
+                                                                Cloud Hosting
+                                                            </a>
+                                                            <div class="collapse" id="cloudHostAccordion">
+                                                                <ul class="mobile-submenu-list">
+                                                                    <ul class="mobile-submenu-list">
+                                                                        <li><a href="#">FTP Hosting</a></li>
+                                                                        <li><a href="#">MySQL</a></li>
+                                                                        <li><a href="#">Hosting</a></li>
+                                                                        <li><a href="#">MongoDB</a></li>
+                                                                        <li><a href="#">Hosted</a></li>
+                                                                        <li><a href="#">NodeJS</a></li>
+                                                                        <li><a href="#">Hosted</a></li>
+                                                                        <li><a href="#">Laravel</a></li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#MarketingToolsAccordion">
+                                                                Marketing Tools
+                                                            </a>
+                                                            <div class="collapse" id="MarketingToolsAccordion">
+                                                                <ul class="mobile-submenu-list">
+                                                                    <ul class="mobile-submenu-list">
+                                                                        <li><a href="#">Email Marketing</a></li>
+                                                                        <li><a href="#">SMS Services</a></li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#CloudInstanceAccordion">
+                                                                Cloud Instance
+                                                            </a>
+                                                            <div class="collapse" id="CloudInstanceAccordion">
+                                                                <ul class="mobile-submenu-list">
+        
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li><a href="#">Domains</a></li>
+                                            <li><a href="#">Marketplace</a></li>
+                                            <li class="has-submenu">
+                                                <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                    href="#freeToolsAccordion">
+                                                    Free Tools
+                                                </a>
+                                                <div class="collapse" id="freeToolsAccordion">
+                                                    <ul class="mobile-menu-list mobile-menu-accordion-list">
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#netWorkAccordion">
+                                                                Network Tools
+                                                            </a>
+                                                            <div class="collapse" id="netWorkAccordion">
+                                                                <ul class="mobile-submenu-list">
+                                                                    <li class="dropdown"><a
+                                                                        href="https://dev.maxstore.co.il/en/whats-my-ip-address"
+                                                                        target="_self" title="What’s My IP Address">What’s My IP
+                                                                        Address</a>
+                                                                    </li>
+                                                                    <li class="dropdown"><a href="en/traceroute.html" target="_self"
+                                                                            title="">Traceroute</a></li>
+                                                                    <li class="dropdown"><a href="en/whois.html" target="_self"
+                                                                            title="Whois Lookup">Whois Lookup</a></li>
+                                                                    <li class="dropdown"><a href="en/dns-checker.html" target="_self"
+                                                                            title="">A
+                                                                            Record Checker</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#passwordToolAccordion">
+                                                                Password Tools
+                                                            </a>
+                                                            <div class="collapse" id="passwordToolAccordion">
+                                                                <ul class="mobile-submenu-list">
+                                                                    <ul class="mobile-submenu-list">
+                                                                        <li class="dropdown"><a href="en/password-generator.html" target="_self"
+                                                                            title="">Password Generator</a></li>
+                                                                        <li class="dropdown"><a href="en/md5-password-generator.html"
+                                                                                target="_self" title="">MD5 Hash Generator</a></li>
+                                                                        <li class="dropdown"><a href="en/base64-converter.html" target="_self"
+                                                                                title="">Base64 Converter</a></li>
+                                                                        <li class="dropdown"><a href="en/sha-1-generator.html" target="_self"
+                                                                                title="">SHA-1 Hash Generator</a></li>
+                                                                        <li class="dropdown"><a href="en/sha-256-generator.html" target="_self"
+                                                                                title="SHA-256 Hash Generator">SHA-256 Hash Generator</a></li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#seoToolsAccordion">
+                                                                SEO Tools
+                                                            </a>
+                                                            <div class="collapse" id="seoToolsAccordion">
+                                                                    <ul class="mobile-submenu-list">
+                                                                        <li class="dropdown"><a
+                                                                            href="https://dev.maxstore.co.il/en/website-seo-score-checker"
+                                                                            target="_self" title="">Website Seo Score Checker</a></li>
+                                                                        <li class="dropdown"><a href="en/seo-score-checker.html" target="_self"
+                                                                                title="">SEO Score Checker</a></li>
+                                                                        <li class="dropdown"><a href="en/backlink-checker.html" target="_self"
+                                                                                title="">Backlink Checker</a></li>
+                                                                        <li class="dropdown"><a href="en/broken-links-checker-tool.html"
+                                                                                target="_self" title="">Broken Links Checker tool</a></li>
+                                                                        <li class="dropdown"><a href="en/backlink-checker.html" target="_self"
+                                                                                title="">Backlinking Checker</a></li>
+                                                                        <li class="dropdown"><a href="en/meta-tag-generator.html" target="_self"
+                                                                                title="">Meta Tag Generator</a></li>
+                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="has-submenu">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                href="#DeveloperToolsAccordion">
+                                                                Developer Tools
+                                                            </a>
+                                                            <div class="collapse" id="DeveloperToolsAccordion">
+                                                                    <ul class="mobile-submenu-list">
+                                                                        <li class="dropdown"><a href="en/wordpress-theme-detector.html"
+                                                                            target="_self" title="WordPress Theme Detector">WordPress Theme
+                                                                            Detector</a></li>
+                                                                        <li class="dropdown"><a href="en/htaccess-redirect.html" target="_self"
+                                                                                title="Htaccess Redirect Generator">Htaccess Redirect
+                                                                                Generator</a>
+                                                                        </li>
+                                                                        <li class="dropdown"><a href="en/xml-sitemap-generator.html"
+                                                                                target="_self" title="XML Sitemap Generator">XML Sitemap
+                                                                                Generator</a></li>
+                                                                        <li class="dropdown"><a href="en/robot-text-generator.html"
+                                                                                target="_self" title="Robot .txt Generator">Robot .txt
+                                                                                Generator</a></li>
+                                                                        <li class="dropdown"><a href="en/website-page-size-checker.html"
+                                                                                target="_self" title="Website Page Size Checker">Website Page
+                                                                                Size
+                                                                                Checker</a></li>
+                                                                        <li class="dropdown"><a href="en/word-counter.html" target="_self"
+                                                                                title="Word Counter">Word Counter</a></li>
+                                                                        <li class="dropdown"><a href="en/qr-code-generator.html" target="_self"
+                                                                                title="QR Code Generator">QR Code Generator</a></li>
+                                                                    </ul>
+                                                            </div>
+                                                        </li>
+                                                        <!-- Add more submenu items here -->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li><a href="#">Support</a></li>
+                                            <li><a href="#" class="register">Get Started</a></li>
+                                            <li><a href="#" class="login">Login</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                     </div>
                 </div>
             </nav>
@@ -840,6 +941,7 @@ function ConfirmDeleteLovi(id,title,href)
 <script>
     const drawer = document.querySelector('.drawer');
     const toggleButton = document.querySelector('.toggle-menu-button');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
 
     toggleButton.addEventListener('click', () => {
         drawer.classList.toggle('open');
@@ -851,6 +953,11 @@ function ConfirmDeleteLovi(id,title,href)
         if (!drawer.contains(target) && target !== toggleButton) {
             drawer.classList.remove('open');
         }
+    });
+
+    // Close the drawer when clicking on an element with the class "mobile-menu-close"
+    mobileMenuClose.addEventListener('click', () => {
+        drawer.classList.remove('open');
     });
 </script>
 <!-- mobile menu js -->
