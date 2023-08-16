@@ -361,50 +361,38 @@
         margin-top: 20px;
     }
 
-    .banner-scroll-list-box{
-        display: none;
-    }
-    .banner-images-scroll .slick-slide img{
-        width: 77%;
-    }
     .banner-scroll-inner{
+        min-height: auto;
         overflow: hidden;
     }
-    .banner-scroll-inner .slick-slide img{
-        padding: 20px;
-        width: 85%;
-        margin-top: -30px;
-    }
-    .banner-scroll-area::before{
-        right: -70px;
-        top: -70px;
-    }
 
-    .banner-images-scroll{
-        top: 96px;
-    }
-    /*-- banner style --*/
-.banner-scroll-inner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+.banner-scroll-list-text{
+    display: none;
 }
-
-.banner-images-scroll{
-    width: 100%;
+.banner-scroll-icon{
+    display: block;
+}
+.banner-scroll-area{
     height: auto;
+    min-height: 100%;
+}
+.banner-images-scroll .slick-slide img{
+    width: 80%;
+    margin-right: auto;
+    margin-left: 0px;
+}
+.banner-images-scroll .slick-initialized .slick-slide{
+    width: 100vw !important;
+    float: none !important;
+}
+
+.banner-images-scroll {
     position: relative;
-    overflow: hidden;
-}
-.banner-scroll-inner .slick-slide img{
-    width: 100%;
-    margin: 0px;
-    top: 75px;
-}
-.banner-scroll-list-box{
-    width: 0%;
-    overflow: hidden;
+    height: auto;
+    right: auto;
+    left: 57px;
+    top: 65px;
+    width: 100vw;
 }
 
 
@@ -511,6 +499,24 @@
     .fast-api-area{
         height: 430px;
     }
+    .banner-scroll-list-box{
+        top: 34px;
+    }
+    .banner-scroll-area{
+        height: 580px;
+    }
+}
+@media screen and (max-width:540px){
+    .banner-scroll-list-box .slick-slide{
+        margin-bottom: 4px;
+    }
+    .banner-scroll-icon img{
+        height: 16px;
+        width: 16px;
+    }
+    .banner-images-scroll .slick-slide img{
+        width: 75vw;
+    }
 }
 @media screen and (max-width:480px){
     .banner-news-box{
@@ -524,7 +530,7 @@
         padding: 8px 0px;
     }
     .banner-scroll-inner .slick-slide img{
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .banner-news-highlight ul{
         flex-wrap: wrap;
@@ -590,6 +596,13 @@
         margin: 0 16px 0px 0;
         float: left;
         margin-bottom: 8px;
+    }
+
+    .banner-images-scroll .slick-slide img{
+        width: 70vw;
+    }
+    .banner-scroll-area{
+        height: 500px;
     }
     
 }
