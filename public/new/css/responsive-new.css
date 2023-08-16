@@ -293,6 +293,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .banner-scroll-list-box .slick-track{
+        transform: none !important;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -394,7 +397,17 @@
     top: 65px;
     width: 100vw;
 }
+.banner-images-scroll .slick-initialized .slick-slide{
+    float: left !important;
+}
 
+.banner-scroll-list-box{
+    padding-top: 30px;
+    top: 30px;
+}
+.banner-scroll-inner{
+   padding-top: 40px;
+}
 
 /*-- domain --*/
 .domin-content-area h1{
@@ -420,6 +433,10 @@
 .dedicated-support-img img{
     height: 100%;
     width: 100%;
+}
+
+.banner-scroll-inner{
+    border-radius: 16px;
 }
     
 }
@@ -457,7 +474,7 @@
     }
 
     .banner-images-scroll{
-        top: 40px;
+        top: 0px;
     }
 
     .banner-scroll-area{
@@ -505,10 +522,13 @@
     .banner-scroll-area{
         height: 580px;
     }
+    .banner-scroll-inner{
+        border-radius: 10px;
+    }
 }
 @media screen and (max-width:540px){
     .banner-scroll-list-box .slick-slide{
-        margin-bottom: 4px;
+        margin-bottom: 0px;
     }
     .banner-scroll-icon img{
         height: 16px;
@@ -516,6 +536,8 @@
     }
     .banner-images-scroll .slick-slide img{
         width: 75vw;
+    }.banner-scroll-list-box{
+        padding-top: 11px;
     }
 }
 @media screen and (max-width:480px){
@@ -603,6 +625,9 @@
     }
     .banner-scroll-area{
         height: 500px;
+    }
+    .banner-scroll-inner{
+        border-radius: 7px;
     }
     
 }
