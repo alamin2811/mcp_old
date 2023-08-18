@@ -140,13 +140,15 @@ $(document).ready(function(){
 
 
 
-/* $("#ps_enerate").ionRangeSlider({
-        grid: true,
-        from: new Date().getMonth(),
-        values: [
-            "1", "20", "40", "60", "80", "100", "120"
-        ]
-    }); */
+/*-- header js start --*/
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 50) {
+     $('.home-banner-area').addClass('header_fixed');
+  } else {
+     $('.home-banner-area').removeClass('header_fixed');
+  }
+});
+/*-- header js end --*/
 
 
 /*Select box*/

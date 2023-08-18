@@ -579,6 +579,9 @@
     .SAB-box{
         padding: 30px;
     }
+    .sms-service-right{
+        display: none;
+    }
 }
 @media screen and (max-width:480px){
     .banner-news-box{

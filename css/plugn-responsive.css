@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+  .wp-plugins-card-header h3{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-content {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .wp-plugins-card-body{
+    min-height: auto;
+  }
+  .wp-plugin-content{
+    padding-top: 40px;
+  }
+  .wp-plugin-content h2{
+    margin-bottom: 30px;
+  }
+}

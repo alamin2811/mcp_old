@@ -5641,7 +5641,7 @@ div[contenteditable=true].VTMB-textarea:focus {
     outline: none;
     background: transparent;
     padding: 4px;
-    margin-top: 5px;
+    margin-top: -8px;
     display: none;
   }
   .toggle-button img{
