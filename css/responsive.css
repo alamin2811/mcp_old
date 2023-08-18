@@ -5770,18 +5770,27 @@ li.SSRH-heading {
 }
     
 .CSCD-name {
-	width: 100%;
-	margin-block-end: 6px;
+	/* width: 100%; */
+	/* margin-block-end: 6px; */
 }
     
 .CSCD-dropi .TDSL-dropi-area {
-	margin-left: -19px;
+	margin-left: 30px;
 }
     
 .CSCD-price {
-	width: 100%;
-	margin-top: 6px;
-}    
+	/* width: 100%; */
+	/* margin-top: 6px; */
+} 
+.check-stepConR-domin .wSelect-theme-classic.wSelect{
+	width: 65px;
+} 
+.wSelect-selected{
+	margin-right: 0px;
+}
+.CSCD-pricr-close{
+	margin-left: 5px;
+}  
     
 .CSCD-dropi {
 	margin-top: -4px;

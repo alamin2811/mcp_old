@@ -89,6 +89,13 @@
     .supportFS-list{
         padding-left: 50px;
     }
+
+    .dominMid-box-right{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+    }
     
 }
 
@@ -471,6 +478,24 @@
 .support-ask-box{
     padding: 90px 0px 60px 0px;
 }
+
+.domin-mid-box{
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+}
+
+.domin-mid-area{
+    padding: 30px 20px 0px;
+}
+
+.domin-mid-box{
+    padding: 16px;
+}
+
+.check-tag-input .CT-tag-btn.check_button{
+    margin-bottom: 20px;
+}
     
 }
 
@@ -558,6 +583,25 @@
     .banner-scroll-inner{
         border-radius: 10px;
     }
+
+    .domin-Mycart-inner{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .domin-cart-right{
+        margin-right: auto;
+        margin-top: -60px;
+    }
+    .domin-cart-right .btn.btn-primary{
+        margin-top: 33px;
+    }
+    .domin-cart-mid{
+        margin-bottom: 18px;
+    }
+    .domin-cart-left{
+        padding-left: 0px;
+    }
 }
 @media screen and (max-width:540px){
     .banner-scroll-list-box .slick-slide{
@@ -582,6 +626,10 @@
     .sms-service-right{
         display: none;
     }
+    .check-tag-input .g-recaptcha{
+        margin-top: 81px;
+    }
+    
 }
 @media screen and (max-width:480px){
     .banner-news-box{

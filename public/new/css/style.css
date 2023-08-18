@@ -2454,7 +2454,8 @@ checkbox label:after,
 }
 
 .domin-Mycart-area {
-    width: 801px;
+    max-width: 801px;
+    width: 100%;
     box-shadow: 0 3px 20px rgb(43 42 42 / 30%);
     background: #fff;
     position: fixed;

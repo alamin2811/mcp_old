@@ -929,9 +929,9 @@ nav {
 .sticky-header.fixed #cssmenu ul li.active a {
     color: #727272;
 }
-.sticky-header.fixed .logo {
+/* .sticky-header.fixed .logo {
     display: none;
-}
+} */
 .sticky-header.fixed .scrolllogo {
     display: block;
 }
