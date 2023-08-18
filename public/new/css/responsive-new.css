@@ -328,6 +328,14 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    /*-- sms --*/
+    /* .sms-feature-content{
+        margin-top: 50px;
+    } */
+    .sms-feature-box{
+        margin-bottom: 80px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -495,6 +503,14 @@
 
 .check-tag-input .CT-tag-btn.check_button{
     margin-bottom: 20px;
+}
+
+.sms-wofeature-image{
+    margin-bottom: 50px;
+}
+
+.sms-feature-box{
+    margin-bottom: 50px;
 }
     
 }
