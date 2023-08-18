@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MCP - WP Plugin</title>
+    <meta name="csrf-token" content="2EW7t6VOaRLaiJ5iiofa8nAChcAZFfaMhYJ72AnN">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+    <link href="css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/glyphicon.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/line-awesome.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/all.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/hover.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/animate.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/bootsnav.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/slick-theme.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/reset.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/style.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/responsive.css">
+    <link media="all" type="text/css" rel="stylesheet" href="public/new/css/responsive-new.css">
+    <link href="css/developer.css" rel="stylesheet">
+    <link rel="shortcut icon" href="public/img/favicon.png" type="image/png" sizes="16x16">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/plugin-style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/plugn-responsive.css">
+
+</head>
+
+<body>
+
+    <div class="home-banner-area inner-page-blackHead" id="main_box">
+        <div class="access-icon">
+            <a href="javascript:void(0)"><img src="img/accessibility-web.png" class="access-img"></a>
+        </div>
+        <!-- Start Navigation -->
+        <header class="header-area mcp-header white-header">
+            <nav class="navbar navbar-default bootsnav">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><img src="public/new/images/search-icon-gray.png"
+                                    alt=""></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+
+                <div class="container">
+                    <div class="mcp-header-content">
+                        <!-- Start Header Navigation -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#navbar-menu">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand" href="index.htm"><img src="public/new/images/logo-blue.png"
+                                    class="logo" alt=""></a>
+                        </div>
+                        <!-- End Header Navigation -->
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="nav navbar-nav navbar-right menu" data-in="fadeInDown" data-out="fadeOutUp">
+                                <li class="dropdown"><a href="javascript:;" title="Products"
+                                        class="dropdown-toggle products" data-toggle="dropdown">Products</a>
+                                    <!-- <ul class="dropdown-menu2">
+                                <li class="dropdown"><a href="javascript:;" title="Marketing Tools">Marketing
+                                        Tools</a>
+                                    <ul class="dropdown-menu2">
+                                        <li class="dropdown"><a href="en/sms-service.html" target="_self"
+                                                title="SMS Marketing">SMS Marketing</a></li>
+                                    </ul>
+                                </li>
+                            </ul> -->
+                                </li>
+                                <li class="dropdown"><a href="en/domain.html" target="_self" title="">Domains</a></li>
+                                <li class="dropdown"><a href="javascript:;" title="Marketplace Soon">Marketplace</a>
+                                </li>
+                                <li class="dropdown"><a href="javascript:;" title="" class="dropdown-toggle"
+                                        data-toggle="dropdown">Free Tools</a>
+                                    <ul class="dropdown-menu2">
+                                        <li class="dropdown"><a href="en/ssl-checker.html" target="_self" title="">SSL
+                                                Checker</a></li>
+                                        <li class="dropdown"><a href="en/ssl-mix-content-checker.html" target="_self"
+                                                title="">SSL Mix Content Checker</a></li>
+                                        <li class="dropdown"><a href="javascript:;" title="Network Tools"
+                                                class="dropdown-toggle" data-toggle="dropdown">Network Tools</a>
+                                            <ul class="dropdown-menu2">
+                                                <li class="dropdown"><a
+                                                        href="https://dev.maxstore.co.il/en/whats-my-ip-address"
+                                                        target="_self" title="What’s My IP Address">What’s My IP
+                                                        Address</a>
+                                                </li>
+                                                <li class="dropdown"><a href="en/traceroute.html" target="_self"
+                                                        title="">Traceroute</a></li>
+                                                <li class="dropdown"><a href="en/whois.html" target="_self"
+                                                        title="Whois Lookup">Whois Lookup</a></li>
+                                                <li class="dropdown"><a href="en/dns-checker.html" target="_self"
+                                                        title="">A
+                                                        Record Checker</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="javascript:;" title="Password Tools">Password
+                                                Tools</a>
+                                            <ul class="dropdown-menu2">
+                                                <li class="dropdown"><a href="en/password-generator.html" target="_self"
+                                                        title="">Password Generator</a></li>
+                                                <li class="dropdown"><a href="en/md5-password-generator.html"
+                                                        target="_self" title="">MD5 Hash Generator</a></li>
+                                                <li class="dropdown"><a href="en/base64-converter.html" target="_self"
+                                                        title="">Base64 Converter</a></li>
+                                                <li class="dropdown"><a href="en/sha-1-generator.html" target="_self"
+                                                        title="">SHA-1 Hash Generator</a></li>
+                                                <li class="dropdown"><a href="en/sha-256-generator.html" target="_self"
+                                                        title="SHA-256 Hash Generator">SHA-256 Hash Generator</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="javascript:;" title="SEO Tools">SEO Tools</a>
+                                            <ul class="dropdown-menu2">
+                                                <li class="dropdown"><a
+                                                        href="https://dev.maxstore.co.il/en/website-seo-score-checker"
+                                                        target="_self" title="">Website Seo Score Checker</a></li>
+                                                <li class="dropdown"><a href="en/seo-score-checker.html" target="_self"
+                                                        title="">SEO Score Checker</a></li>
+                                                <li class="dropdown"><a href="en/backlink-checker.html" target="_self"
+                                                        title="">Backlink Checker</a></li>
+                                                <li class="dropdown"><a href="en/broken-links-checker-tool.html"
+                                                        target="_self" title="">Broken Links Checker tool</a></li>
+                                                <li class="dropdown"><a href="en/backlink-checker.html" target="_self"
+                                                        title="">Backlinking Checker</a></li>
+                                                <li class="dropdown"><a href="en/meta-tag-generator.html" target="_self"
+                                                        title="">Meta Tag Generator</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="javascript:;" title="Developer Tools">Developer
+                                                Tools</a>
+                                            <ul class="dropdown-menu2">
+                                                <li class="dropdown"><a href="en/wordpress-theme-detector.html"
+                                                        target="_self" title="WordPress Theme Detector">WordPress Theme
+                                                        Detector</a></li>
+                                                <li class="dropdown"><a href="en/htaccess-redirect.html" target="_self"
+                                                        title="Htaccess Redirect Generator">Htaccess Redirect
+                                                        Generator</a>
+                                                </li>
+                                                <li class="dropdown"><a href="en/xml-sitemap-generator.html"
+                                                        target="_self" title="XML Sitemap Generator">XML Sitemap
+                                                        Generator</a></li>
+                                                <li class="dropdown"><a href="en/robot-text-generator.html"
+                                                        target="_self" title="Robot .txt Generator">Robot .txt
+                                                        Generator</a></li>
+                                                <li class="dropdown"><a href="en/website-page-size-checker.html"
+                                                        target="_self" title="Website Page Size Checker">Website Page
+                                                        Size
+                                                        Checker</a></li>
+                                                <li class="dropdown"><a href="en/word-counter.html" target="_self"
+                                                        title="Word Counter">Word Counter</a></li>
+                                                <li class="dropdown"><a href="en/qr-code-generator.html" target="_self"
+                                                        title="QR Code Generator">QR Code Generator</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="https://members.maxstore.co.il/clientarea.php"
+                                        target="_self" title="Old Site">Old Site</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+
+                        <!-- Start Atribute Navigation -->
+                        <div class="attr-nav">
+                            <ul class="header-right-menu">
+                                <li class="search"><a href="#"><img src="public/new/images/search-icon.svg" alt=""></a>
+                                </li>
+                                <li class="cart" id="userCartFront">
+                                    <a href="checkout-billing-step.html"><img src="public/new/images/cart.png"
+                                            alt=""></a>
+                                    <span class="cart_count d-none"></span>
+                                </li>
+                                <li class="login-header"><a href="login.html">Login</a></li>
+                                <li class="get-start-header"><a href="register.html">Get Started</a></li>
+                                <li class="get-language-header">
+                                    <div class="my_account_dropi language-dropi">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-default dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                <img src="public/new/images/language-icon.svg" alt=""
+                                                    class="language-dropi-img language-noscroll-icon">
+                                                <img src="public/new/images/language-icon-scroll.svg" alt=""
+                                                    class="language-dropi-img language-scroll-icon">
+                                                <i class="arrow-language"><img src="public/new/images/menu-arrow.svg"
+                                                        alt=""></i>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="border_none  active  "><a href="index.htm">English</a></li>
+                                                <li class="border_none  "><a href="javascript:void(0)">Hebrew (Soon)</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Atribute Navigation -->
+                        <button class="toggle-button"><img class="toggle-menu-button"
+                                src="./public/new/images/menu-bar.svg" alt=""></button>
+                        <div class="drawer">
+                            <div class="drawer-content">
+                                <ul class="mobile-menu-top">
+                                    <li><a href="index.html" class="mobile-logo"><img
+                                                src="./public/new/images/logo-blue.png" alt=""></a></li>
+                                    <li class="cart" id="userCartFront">
+                                        <a href="checkout-billing-step.html"><img src="public/new/images/cart.png"
+                                                alt=""></a>
+                                        <span class="cart_count d-none"></span>
+                                    </li>
+                                    <li class="get-language-header">
+                                        <div class="my_account_dropi language-dropi">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-default dropdown-toggle"
+                                                    data-toggle="dropdown">
+                                                    <img src="public/new/images/language-icon.svg" alt=""
+                                                        class="language-dropi-img language-noscroll-icon">
+                                                    <img src="public/new/images/language-icon-scroll.svg" alt=""
+                                                        class="language-dropi-img language-scroll-icon">
+                                                    <i class="arrow-language"><img
+                                                            src="public/new/images/menu-arrow.svg" alt=""></i>
+                                                </button>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li class="border_none  active  "><a href="index.htm">English</a>
+                                                    </li>
+                                                    <li class="border_none  "><a href="javascript:void(0)">Hebrew
+                                                            (Soon)</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><button class="mobile-menu-close"><img src="public/new/images/xmark.svg"
+                                                alt="icon"></button></li>
+                                </ul>
+                                <div class="mobile-menu-inner">
+                                    <form class="mobile-search-form" action="/">
+                                        <button type="button"><img src="public/new/images/search-icon.svg"
+                                                alt=""></button>
+                                        <input type="text" placeholder="search">
+                                    </form>
+                                    <ul class="mobile-menu-list pl-0">
+                                        <li class="has-submenu">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                href="#productsAccordion">
+                                                Products
+                                            </a>
+                                            <ul class="mobile-menu-list collapse mobile-menu-accordion-list"
+                                                id="productsAccordion">
+                                                <li class="has-submenu">
+                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                        href="#cloudAppsAccordion">
+                                                        Cloud Apps
+                                                    </a>
+                                                    <ul class="mobile-submenu-list collapse" id="cloudAppsAccordion">
+                                                        <li><a href="#">WordPress</a></li>
+                                                        <li><a href="#">Joomla</a></li>
+                                                        <li><a href="#">Drupal</a></li>
+                                                        <li><a href="#">Magento</a></li>
+                                                        <li><a href="#">PrestaShop</a></li>
+                                                        <li><a href="#">OpenCart</a></li>
+                                                        <li><a href="#">Moodle</a></li>
+                                                        <li><button>Show all apps</button></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                        href="#cloudHostAccordion">
+                                                        Cloud Hosting
+                                                    </a>
+                                                    <ul class="mobile-submenu-list collapse" id="cloudHostAccordion">
+                                                        <li><a href="#">FTP Hosting</a></li>
+                                                        <li><a href="#">MySQL</a></li>
+                                                        <li><a href="#">Hosting</a></li>
+                                                        <li><a href="#">MongoDB</a></li>
+                                                        <li><a href="#">Hosted</a></li>
+                                                        <li><a href="#">NodeJS</a></li>
+                                                        <li><a href="#">Hosted</a></li>
+                                                        <li><a href="#">Laravel</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                        href="#MarketingToolsAccordion">
+                                                        Marketing Tools
+                                                    </a>
+                                                    <ul class="mobile-submenu-list collapse"
+                                                        id="MarketingToolsAccordion">
+                                                        <li><a href="#">Email Marketing</a></li>
+                                                        <li><a href="#">SMS Services</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-submenu">
+                                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                        href="#CloudInstanceAccordion">
+                                                        Cloud Instance
+                                                    </a>
+                                                    <ul class="mobile-submenu-list collapse"
+                                                        id="CloudInstanceAccordion">
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Domains</a></li>
+                                        <li><a href="#">Marketplace</a></li>
+                                        <li class="has-submenu">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                href="#freeToolsAccordion">
+                                                Free Tools
+                                            </a>
+                                            <div class="collapse" id="freeToolsAccordion">
+                                                <ul class="mobile-menu-list mobile-menu-accordion-list">
+                                                    <li class="has-submenu">
+                                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                            href="#netWorkAccordion">
+                                                            Network Tools
+                                                        </a>
+                                                        <ul class="mobile-submenu-list collapse" id="netWorkAccordion">
+                                                            <li class="dropdown"><a
+                                                                    href="https://dev.maxstore.co.il/en/whats-my-ip-address"
+                                                                    target="_self" title="What’s My IP Address">What’s
+                                                                    My IP
+                                                                    Address</a>
+                                                            </li>
+                                                            <li class="dropdown"><a href="en/traceroute.html"
+                                                                    target="_self" title="">Traceroute</a></li>
+                                                            <li class="dropdown"><a href="en/whois.html" target="_self"
+                                                                    title="Whois Lookup">Whois Lookup</a></li>
+                                                            <li class="dropdown"><a href="en/dns-checker.html"
+                                                                    target="_self" title="">A
+                                                                    Record Checker</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-submenu">
+                                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                            href="#passwordToolAccordion">
+                                                            Password Tools
+                                                        </a>
+                                                        <ul class="mobile-submenu-list collapse"
+                                                            id="passwordToolAccordion">
+                                                            <li class="dropdown"><a href="en/password-generator.html"
+                                                                    target="_self" title="">Password Generator</a></li>
+                                                            <li class="dropdown"><a
+                                                                    href="en/md5-password-generator.html" target="_self"
+                                                                    title="">MD5 Hash Generator</a></li>
+                                                            <li class="dropdown"><a href="en/base64-converter.html"
+                                                                    target="_self" title="">Base64 Converter</a></li>
+                                                            <li class="dropdown"><a href="en/sha-1-generator.html"
+                                                                    target="_self" title="">SHA-1 Hash Generator</a>
+                                                            </li>
+                                                            <li class="dropdown"><a href="en/sha-256-generator.html"
+                                                                    target="_self"
+                                                                    title="SHA-256 Hash Generator">SHA-256 Hash
+                                                                    Generator</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-submenu">
+                                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                            href="#seoToolsAccordion">
+                                                            SEO Tools
+                                                        </a>
+                                                        <ul class="mobile-submenu-list collapse" id="seoToolsAccordion">
+                                                            <li class="dropdown"><a
+                                                                    href="https://dev.maxstore.co.il/en/website-seo-score-checker"
+                                                                    target="_self" title="">Website Seo Score
+                                                                    Checker</a></li>
+                                                            <li class="dropdown"><a href="en/seo-score-checker.html"
+                                                                    target="_self" title="">SEO Score Checker</a></li>
+                                                            <li class="dropdown"><a href="en/backlink-checker.html"
+                                                                    target="_self" title="">Backlink Checker</a></li>
+                                                            <li class="dropdown"><a
+                                                                    href="en/broken-links-checker-tool.html"
+                                                                    target="_self" title="">Broken Links Checker
+                                                                    tool</a></li>
+                                                            <li class="dropdown"><a href="en/backlink-checker.html"
+                                                                    target="_self" title="">Backlinking Checker</a></li>
+                                                            <li class="dropdown"><a href="en/meta-tag-generator.html"
+                                                                    target="_self" title="">Meta Tag Generator</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-submenu">
+                                                        <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                            href="#DeveloperToolsAccordion">
+                                                            Developer Tools
+                                                        </a>
+                                                        <ul class="mobile-submenu-list collapse"
+                                                            id="DeveloperToolsAccordion">
+                                                            <li class="dropdown"><a
+                                                                    href="en/wordpress-theme-detector.html"
+                                                                    target="_self"
+                                                                    title="WordPress Theme Detector">WordPress Theme
+                                                                    Detector</a></li>
+                                                            <li class="dropdown"><a href="en/htaccess-redirect.html"
+                                                                    target="_self"
+                                                                    title="Htaccess Redirect Generator">Htaccess
+                                                                    Redirect
+                                                                    Generator</a>
+                                                            </li>
+                                                            <li class="dropdown"><a href="en/xml-sitemap-generator.html"
+                                                                    target="_self" title="XML Sitemap Generator">XML
+                                                                    Sitemap
+                                                                    Generator</a></li>
+                                                            <li class="dropdown"><a href="en/robot-text-generator.html"
+                                                                    target="_self" title="Robot .txt Generator">Robot
+                                                                    .txt
+                                                                    Generator</a></li>
+                                                            <li class="dropdown"><a
+                                                                    href="en/website-page-size-checker.html"
+                                                                    target="_self"
+                                                                    title="Website Page Size Checker">Website Page
+                                                                    Size
+                                                                    Checker</a></li>
+                                                            <li class="dropdown"><a href="en/word-counter.html"
+                                                                    target="_self" title="Word Counter">Word Counter</a>
+                                                            </li>
+                                                            <li class="dropdown"><a href="en/qr-code-generator.html"
+                                                                    target="_self" title="QR Code Generator">QR Code
+                                                                    Generator</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <!-- Add more submenu items here -->
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="register.html" class="register">Get Started</a></li>
+                                        <li><a href="login.html" class="login">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- mega menu start -->
+            <div class="mega-menu-section">
+                <div class="megha-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-6 p-0">
+                                <div class="mega-menu-list">
+                                    <div class="mega-menu-list-inner">
+                                        <h5><img src="./public/new/images/cloud-apps.png" alt="icon">Cloud Apps</h5>
+                                        <ul>
+                                            <li><a href="#">WordPress</a></li>
+                                            <li><a href="#">Joomla</a></li>
+                                            <li><a href="#">Drupal</a></li>
+                                            <li><a href="#">Magento</a></li>
+                                            <li><a href="#">PrestaShop</a></li>
+                                            <li><a href="#">OpenCart</a></li>
+                                            <li><a href="#">Moodle</a></li>
+                                            <li>
+                                                <button>Show all apps</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 p-0">
+                                <div class="mega-menu-list">
+                                    <div class="mega-menu-list-inner">
+                                        <h5><img src="./public/new/images/cloud-hosting.png" alt="icon">Cloud Hosting
+                                        </h5>
+                                        <ul>
+                                            <li><a href="#">FTP Hosting </a></li>
+                                            <li><a href="#">MySQL</a></li>
+                                            <li><a href="#">Hosting</a></li>
+                                            <li><a href="#">MongoDB</a></li>
+                                            <li><a href="#">Hosted</a></li>
+                                            <li><a href="#">NodeJS</a></li>
+                                            <li><a href="#">Hosted</a></li>
+                                            <li><a href="#">Laravel</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 p-0">
+                                <div class="mega-menu-list">
+                                    <div class="mega-menu-list-inner no-border">
+                                        <h5><img src="./public/new/images/merketing-tools.png" alt="icon">Marketing
+                                            Tools
+                                        </h5>
+                                        <ul>
+                                            <li><a href="#">Email Marketing </a></li>
+                                            <li><a href="#">SMS Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 p-0">
+                                <div class="mega-menu-list last">
+                                    <div class="mega-menu-list-inner no-border">
+                                        <h5><img src="./public/new/images/cloud-instance.png" alt="icon">Cloud Instance
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mega menu End -->
+        </header> <!-- End Navigation -->
+
+    </div>
+
+    <section class="wp-plugin-content">
+        <div class="container">
+            <h2 class="outfit">WordPress Plugins</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="wp-plugins-card">
+                        <div class="wp-plugins-card-header">
+                            <h3>CreditGuard for WooCommerce - Basic</h3>
+                        </div>
+                        <div class="wp-plugins-card-body">
+                            <p>תוסף סליקה עבור מערכת מסח <br> <span class="uppercase">woocommerce</span></p>
+
+                            <form>
+                                <input type="text" value="₪585.00ILS">
+                                <button><img src="./img/shopping-cart.svg" alt="icon">Order Now</button>
+                            </form>
+
+                            <p>מתאים לחיבור סליקה של חברת ווריפון</p>
+                            <p>מתאים לחיבור סליקה של חברת קרדיט גארד</p>
+                            <p>ממשק ניהול פשוט</p>
+                            <p>תמיכה במדרגות תשלומים</p>
+                            <p>פועל ב Iframe & Redirect</p>
+                            <p>תמיכה בריבוי שפות באמצעות WPML</p>
+                            <p>תמיכה בחשבוניות של ט.מ.ל</p>
+                            <p>תמיכה ב J4 / J5</p>
+
+                            <p>*רישוי לאתר אחד כולל תמיכה ועדכונים לשנה</p>
+                            <p>240 חידוש תמיכה ועדכונים לשנה נוספת בעלות ש"ח + מעמ </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="wp-plugins-card">
+                        <div class="wp-plugins-card-header">
+                            <h3>CreditGuard for WooCommerce - Premium</h3>
+                        </div>
+                        <div class="wp-plugins-card-body">
+                            <p>תוסף סליקה עבור מערכת מסח <br> <span class="uppercase">woocommerce</span></p>
+
+                            <form>
+                                <input type="text" value="₪585.00ILS">
+                                <button><img src="./img/shopping-cart.svg" alt="icon">Order Now</button>
+                            </form>
+
+                            <p>מתאים לחיבור סליקה של חברת ווריפון</p>
+                            <p>מתאים לחיבור סליקה של חברת קרדיט גארד</p>
+                            <p>ממשק ניהול פשוט</p>
+                            <p>תמיכה במדרגות תשלומים</p>
+                            <p>פועל ב Iframe & Redirect</p>
+                            <p>תמיכה בריבוי שפות באמצעות WPML</p>
+                            <p>תמיכה בחשבוניות של ט.מ.ל</p>
+                            <p>תמיכה ב J4 / J5</p>
+
+                            <p>*רישוי לאתר אחד כולל תמיכה ועדכונים לשנה</p>
+                            <p>300 חידוש תמיכה ועדכונים לשנה נוספת בעלות ש"ח + מעמ </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="wp-plugins-card">
+                        <div class="wp-plugins-card-header">
+                            <h3>CreditGuard for WooCommerce - Pro</h3>
+                        </div>
+                        <div class="wp-plugins-card-body">
+                            <p>תוסף סליקה עבור מערכת מסח <br> <span class="uppercase">woocommerce</span></p>
+
+                            <form>
+                                <input type="text" value="₪585.00ILS">
+                                <button><img src="./img/shopping-cart.svg" alt="icon">Order Now</button>
+                            </form>
+
+                            <p>מתאים לחיבור סליקה של חברת ווריפון</p>
+                            <p>מתאים לחיבור סליקה של חברת קרדיט גארד</p>
+                            <p>ממשק ניהול פשוט</p>
+                            <p>תמיכה במדרגות תשלומים</p>
+                            <p>פועל ב Iframe & Redirect</p>
+                            <p>תמיכה בריבוי שפות באמצעות WPML</p>
+                            <p>תמיכה בחשבוניות של ט.מ.ל</p>
+                            <p>תמיכה ב J4 / J5</p>
+
+                            <p>*רישוי לאתר אחד כולל תמיכה ועדכונים לשנה</p>
+                            <p>חידוש התוסף לשנה נוספת יחושב לפי כמות תתי אתרים</p>
+
+                            <p>מחירי רישוי לתתי אתרים לשנה <br> 0-5 אתרים 120 ש"ח + מע"מ לרישוי לשנה <br> 6-10 אתרים 100
+                                ש"ח + מע"מ לרישוי לשנה <br> 11-20 אתרים 80 ש"ח + מע"מ לרישוי לשנה <br> 21+ אתרים 60 ש"ח
+                                + מע"מ לרישוי לשנה</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="container">
+            <div class="footer-inner">
+                <p>Copyright © 2023 Maxstore Cloud Platforms. All Rights Reserved.</p>
+                <a href="#"><img src="./img/back-to-top-icon.svg" alt="icon"></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="public/new/js/jquery-1.11.3.min.js"></script>
+    <script src="public/new/js/bootstrap.min.js"></script>
+    <script src="public/new/js/bootsnav.js"></script>
+    <script src="public/new/js/popper.min.js"></script>
+    <script src="public/new/js/slick.js"></script>
+    <script src="public/new/js/simplebar.js"></script>
+    <script src="public/new/js/custom.js"></script>
+    <script src="public/js/jquery.validate.min.js"></script>
+    <script src="public/js/custom.validiation.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/developer.js"></script>
+
+    <script>
+        var site_url = "https://dev.maxstore.co.il";
+        var checkCart = "https://dev.maxstore.co.il/cart/check";
+        $(document).ready(function () {
+            $("#preloader").fadeOut();
+
+            $.ajax({
+                url: checkCart,
+                type: "GET",
+                cache: false,
+                data: { domain: null, type: 'add', buy: null },
+                beforeSend: function () {
+                    $("#preloader").fadeIn();
+                },
+                success: function (json) {
+                    $("#preloader").fadeOut();
+                    if (json.status) {
+                        $("#domainCartDiv").html(json.html);
+                        if (json.count > 0) {
+                            $(".cart_count").html(json.count);
+                            $(".cart_count").removeClass("d-none");
+                        } else {
+                            $("#userCartFront").addClass("d-none");
+                        }
+                        $("body").addClass("dominCart_show");
+                    } else {
+                        $("#userCartFront").addClass("d-none");
+                    }
+                },
+                error: function (jqXHR, exception) {
+                    $("#preloader").fadeOut();
+                    console.log(jqXHR.status + '-' + jqXHR.responseText);
+                }
+            });
+        });
+
+
+    </script>
+
+    <script>
+
+        /*-- megaMenu start --*/
+        $(document).ready(function () {
+            var megaMenu = $(".mcp-header");
+
+            if (megaMenu.length) {
+                $('.products').hover(function () {
+                    $('.mega-menu-section').fadeIn();
+                });
+
+                $('.mega-menu-section').hover(function () {
+                });
+
+                // Hide .mega-menu-section when hovering outside .mega-menu-section and .products
+                $(document).on('mouseover', function (e) {
+                    if (!$(e.target).closest('.mega-menu-section').length && !$(e.target).closest('.products').length) {
+                        $('.mega-menu-section').fadeOut();
+                    }
+                });
+            }
+        });
+/*-- megaMenu end --*/
+    </script>
+    <!-- mobile menu js -->
+    <script>
+        const drawer = document.querySelector('.drawer');
+        const toggleButton = document.querySelector('.toggle-menu-button');
+        const mobileMenuClose = document.querySelector('.mobile-menu-close');
+
+        toggleButton.addEventListener('click', () => {
+            drawer.classList.toggle('open');
+        });
+
+        // Close the drawer when clicking outside of it
+        document.addEventListener('click', (event) => {
+            const target = event.target;
+            if (!drawer.contains(target) && target !== toggleButton) {
+                drawer.classList.remove('open');
+            }
+        });
+
+        // Close the drawer when clicking on an element with the class "mobile-menu-close"
+        mobileMenuClose.addEventListener('click', () => {
+            drawer.classList.remove('open');
+        });
+    </script>
+    <!-- mobile menu js -->
+
+
+</body>
+
+</html>
